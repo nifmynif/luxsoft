@@ -1,0 +1,59 @@
+MODULE Game;
+REQUIRE Team;
+
+CLASS Game 'Игра';
+
+date 'Дата' = DATA DATE (Game);
+hostTeam = DATA Team (Game);
+guestTeam = DATA Team (Game);
+hostTeamName 'Хозяева' (Game game) = name(hostTeam(game));
+guestTeamName 'Гости' (Game game) = name(guestTeam(game));
+
+gameName 'Матч' (Game game) = hostTeamName(game) + ' - ' + guestTeamName(game);
+
+CONSTRAINT hostTeam(team) = guestTeam(team) CHECKED BY hostTeam, guestTeam
+    MESSAGE 'Хозяйская и гостевая команды должны быть разными';
+
+hostGoals 'Х голы' = DATA INTEGER (Game);
+guestGoals 'Г голы' = DATA INTEGER (Game);
+
+CONSTRAINT hostGoals(game) = guestGoals(game)
+    MESSAGE 'Игра не может закончиться вничью';
+
+winner(Game game) =
+    IF hostGoals(game) > guestGoals(game)
+    THEN hostTeam(game)
+    ELSE guestTeam(game);
+
+looser(Game game) =
+    IF hostGoals(game) > guestGoals(game)
+    THEN guestTeam(game)
+    ELSE hostTeam(game);
+
+CLASS GameResult 'Р/И' {
+    win 'П',
+    winOT 'ПО',
+    winSO 'ПБ'
+}
+
+resultName 'Имя' (GameResult game) = staticCaption(game) IF game IS GameResult IN base;
+
+userResult = DATA GameResult (Game);
+result (Game game) = OVERRIDE userResult(game),
+    (GameResult.win IF ((hostGoals(game) (-) guestGoals(game)) > 1
+        OR (guestGoals(game) (-) hostGoals(game)) > 1));
+
+resultName 'Р/И' (Game game) = resultName(result(game));
+
+CONSTRAINT ((hostGoals(game) (-) guestGoals(game)) > 1
+    AND userResult(game))
+    MESSAGE 'Результат игры определен автоматически';
+
+CONSTRAINT ((hostGoals(game) (-) guestGoals(game)) < 2
+    AND (hostGoals(game) (-) guestGoals(game)) > -2
+    AND NOT userResult(game))
+    MESSAGE 'Укажите результат игры';
+
+hostGamesPlayed = GROUP SUM 1 BY hostTeam(game);
+guestGamesPlayed = GROUP SUM 1 BY guestTeam(game);
+gamesPlayed 'И' (Team team) = hostGamesPlayed(team) (+) guestGamesPlayed(team);

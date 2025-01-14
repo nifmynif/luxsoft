@@ -1,0 +1,43 @@
+MODULE Score;
+
+REQUIRE Game, Player;
+
+gamesWonBy(Team team, GameResult type) = OVERRIDE [GROUP SUM 1 BY winner(game), result(game)](team, type),
+    0 IF team IS Team AND type IS GameResult MATERIALIZED;
+
+gamesWon 'В' (Team team) = gamesWonBy(team, GameResult.win);
+gamesWonOT 'ВО' (Team team) = gamesWonBy(team, GameResult.winOT);
+gamesWonSO 'ВБ' (Team team) = gamesWonBy(team, GameResult.winSO);
+
+gamesLostBy(Team team, GameResult type) = OVERRIDE [GROUP SUM 1 BY looser(game), result(game)](team, type),
+    0 IF team IS Team AND type IS GameResult MATERIALIZED;
+
+gamesLost 'П' (Team team) = gamesLostBy(team, GameResult.win);
+gamesLostOT 'ПО' (Team team) = gamesLostBy(team, GameResult.winOT);
+gamesLostSO 'ПБ' (Team team) = gamesLostBy(team, GameResult.winSO);
+
+points 'Очки' (Team team) = gamesWon(team) * 3 + (gamesWonSO(team) + gamesWonOT(team)) * 2 + gamesLostOT(team) + gamesLostSO(team);
+
+hostGoalsScored = GROUP SUM hostGoals(game) BY hostTeam(game);
+guestGoalsScored = GROUP SUM guestGoals(game) BY guestTeam(game);
+goalsScored 'Кол-во забитых голов' (Team team) = OVERRIDE hostGoalsScored(team) (+) guestGoalsScored(team), 0 IF team IS Team;
+
+hostGoalsConceded = GROUP SUM guestGoals(game) BY hostTeam(game);
+guestGoalsConceded = GROUP SUM hostGoals(game) BY guestTeam(game);
+goalsConceded 'Кол-во пропущенных голов' (Team team) = OVERRIDE hostGoalsConceded(team) (+) guestGoalsConceded(team), 0 IF team IS Team;
+
+place 'Место' (Team team) = PARTITION SUM 1 ORDER DESC points(team), gamesWon(team), gamesWonOT(team), gamesWonSO(team),
+    (OVERRIDE goalsScored(team) (-) goalsConceded(team), 0), goalsScored(team);
+
+FORM scoreTable 'Турнирная таблица'
+    OBJECTS game = Game
+    PROPERTIES(game) date, gameName, hostGoals, guestGoals, resultName, NEW, DELETE
+
+    OBJECTS team = Team
+    PROPERTIES(team) place, name, gamesPlayed, gamesWon, gamesWonOT, gamesWonSO,
+        gamesLostSO, gamesLostOT, gamesLost, goalsScored, goalsConceded, points, NEW, DELETE
+    ORDERS place(team);
+
+NAVIGATOR {
+    NEW scoreTable;
+}

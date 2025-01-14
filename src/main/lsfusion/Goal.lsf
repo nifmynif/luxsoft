@@ -1,0 +1,39 @@
+MODULE Goal;
+REQUIRE Game, Player;
+
+CLASS Goal 'Гол';
+
+game 'Матч' = DATA Game (Goal);
+player 'Игрок' = DATA Player (Goal);
+playerNumber 'Номер Игрока' (Goal goal) = number(player(goal));
+playerTeam 'Команда' (Goal goal) = team(player(goal));
+playerTeamName 'Команда' (Goal goal) = name(team(player(goal)));
+
+CONSTRAINT playerTeam(goal) != hostTeam(game(goal))
+    AND playerTeam(goal) != guestTeam(game(goal))
+    MESSAGE 'Автор гола должен принадлежать команде, участвующей в матче';
+
+hostGoalsCalc 'Голы хозяев' (Game game) = GROUP SUM 1 BY game(goal);
+guestGoalsCalc 'Голы гостей' (Game game) = GROUP SUM 1 BY game(goal);
+
+CONSTRAINT hostGoals(game) != hostGoalsCalc(game)
+    MESSAGE 'Количество голов хозяев не совпадает с количеством авторов';
+CONSTRAINT guestGoals(game) != guestGoalsCalc(game)
+    MESSAGE 'Количество голов гостей не совпадает с количеством авторов';
+
+FORM editGoal 'Гол'
+    OBJECTS g = Goal
+    PANEL PROPERTIES(g) game, playerNumber
+
+    EDIT Goal OBJECT g;
+
+FORM goalList 'Список голов'
+    OBJECTS g = Goal
+    PROPERTIES(g) READONLY game, playerNumber, playerTeamName
+    PROPERTIES(g) NEWSESSION NEW, EDIT, DELETE
+
+    LIST Goal OBJECT g;
+
+NAVIGATOR {
+    NEW goalList;
+}

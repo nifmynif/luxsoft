@@ -1,0 +1,20 @@
+MODULE Team;
+
+CLASS Team 'Команда';
+
+name 'Название команды' = DATA STRING[30] (Team) IN base;
+
+FORM team 'Команда'
+    OBJECTS t = Team PANEL
+    PROPERTIES(t) name
+    EDIT Team OBJECT t;
+
+FORM teams 'Команды'
+    OBJECTS t = Team
+    PROPERTIES(t) READONLY name
+    PROPERTIES(t) NEWSESSION NEW, EDIT, DELETE
+    LIST Team OBJECT t;
+
+NAVIGATOR {
+    NEW teams;
+}
