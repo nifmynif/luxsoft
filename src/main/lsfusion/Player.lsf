@@ -1,11 +1,13 @@
 MODULE Player;
 REQUIRE Team;
 
+
 CLASS Player 'Игрок';
 
 name 'Имя' = DATA STRING[30] (Player) IN base;
 number 'Номер' = DATA INTEGER (Player);
 team 'Команда' = DATA Team (Player);
+
 teamName 'Название команды' (Player player) = name(team(player));
 
 FORM playerDetails 'Детали игрока'
@@ -24,3 +26,14 @@ FORM playerList 'Список игроков'
 NAVIGATOR {
     NEW playerList;
 }
+
+FORM teamDetails 'Детали команды'
+    OBJECTS t = Team PANEL
+    PROPERTIES(t) name
+
+    OBJECTS p = Player
+    PROPERTIES(p) READONLY name, number
+    FILTERS team(p) == t
+    PROPERTIES(p) NEWSESSION NEW, EDIT, DELETE
+
+    EDIT Team OBJECT t;

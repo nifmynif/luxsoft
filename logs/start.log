@@ -4421,3 +4421,1418 @@ Subsequent errors (if any) could not be found.
 14 янв. 2025 15:33:54,637  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
 14 янв. 2025 15:33:54,637  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
 14 янв. 2025 15:33:54,637  INFO StartLogger - Server has successfully started in 27830 ms
+14 янв. 2025 15:38:04,304  INFO StartLogger - Server is starting...
+14 янв. 2025 15:38:04,343  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:38:05,283  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:38:05,324  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:38:05,337  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:38:05,337  INFO StartLogger - Creating modules
+14 янв. 2025 15:38:05,337  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:38:05,750  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:38:06,031  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:38:06,033  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:38:06,556  INFO StartLogger - Initializing object class
+14 янв. 2025 15:38:06,559  INFO StartLogger - Initializing tables
+14 янв. 2025 15:38:06,620  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:38:06,713  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:38:06,715  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:38:06,730  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:38:07,197  INFO StartLogger - Initializing main logic for module : #2 of 54 Com (actual: 48)
+14 янв. 2025 15:38:07,201  INFO StartLogger - Initializing main logic for module : #3 of 54 Sound (actual: 31)
+14 янв. 2025 15:38:07,201  INFO StartLogger - Initializing main logic for module : #4 of 54 Image (actual: 11)
+14 янв. 2025 15:38:07,202  INFO StartLogger - Initializing main logic for module : #5 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:38:07,207  INFO StartLogger - Initializing main logic for module : #6 of 54 Printer (actual: 10)
+14 янв. 2025 15:38:07,207  INFO StartLogger - Initializing main logic for module : #7 of 54 Time (actual: 2)
+14 янв. 2025 15:38:07,220  INFO StartLogger - Initializing main logic for module : #8 of 54 MasterData (actual: 7)
+14 янв. 2025 15:38:07,222  INFO StartLogger - Initializing main logic for module : #9 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:38:07,227  INFO StartLogger - Initializing main logic for module : #10 of 54 Integration (actual: 45)
+14 янв. 2025 15:38:07,229  INFO StartLogger - Initializing main logic for module : #11 of 54 Numerator (actual: 13)
+14 янв. 2025 15:38:07,229  INFO StartLogger - Initializing main logic for module : #12 of 54 Team (actual: 18)
+14 янв. 2025 15:38:07,241  INFO StartLogger - Initializing main logic for module : #13 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:38:07,259  INFO StartLogger - Initializing main logic for module : #14 of 54 Game (actual: 19)
+14 янв. 2025 15:38:07,260  INFO StartLogger - Initializing main logic for module : #15 of 54 Player (actual: 20)
+14 янв. 2025 15:38:07,332  INFO StartLogger - Initializing main logic for module : #16 of 54 Goal (actual: 21)
+14 янв. 2025 15:38:07,333  INFO StartLogger - Initializing main logic for module : #17 of 54 Score (actual: 36)
+14 янв. 2025 15:38:07,775  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:38:07,897  INFO StartLogger - Initializing main logic for module : #19 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:38:07,898  INFO StartLogger - Initializing main logic for module : #20 of 54 I18n (actual: 30)
+14 янв. 2025 15:38:07,901  INFO StartLogger - Initializing main logic for module : #21 of 54 Authentication (actual: 4)
+14 янв. 2025 15:38:07,918  INFO StartLogger - Initializing main logic for module : #22 of 54 Schedule (actual: 54)
+14 янв. 2025 15:38:07,928  INFO StartLogger - Initializing main logic for module : #23 of 54 Excel (actual: 22)
+14 янв. 2025 15:38:08,360  INFO StartLogger - Initializing main logic for module : #24 of 54 Historizable (actual: 16)
+14 янв. 2025 15:38:08,360  INFO StartLogger - Initializing main logic for module : #27 of 54 Reflection (actual: 5)
+14 янв. 2025 15:38:08,360  INFO StartLogger - Initializing main logic for module : #26 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:38:08,360  INFO StartLogger - Initializing main logic for module : #25 of 54 Document (actual: 14)
+14 янв. 2025 15:38:08,526  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 15:38:08,526  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:38:08,544  INFO StartLogger - Initializing main logic for module : #30 of 54 Telegram (actual: 49)
+14 янв. 2025 15:38:08,556  INFO StartLogger - Initializing main logic for module : #31 of 54 Skype (actual: 52)
+14 янв. 2025 15:38:08,556  INFO StartLogger - Initializing main logic for module : #32 of 54 Slack (actual: 38)
+14 янв. 2025 15:38:08,609  INFO StartLogger - Initializing main logic for module : #33 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:38:08,641  INFO StartLogger - Initializing main logic for module : #34 of 54 Viber (actual: 35)
+14 янв. 2025 15:38:08,868  INFO StartLogger - Initializing main logic for module : #35 of 54 Word (actual: 8)
+14 янв. 2025 15:38:08,868  INFO StartLogger - Initializing main logic for module : #36 of 54 Chart (actual: 47)
+14 янв. 2025 15:38:08,869  INFO StartLogger - Initializing main logic for module : #37 of 54 Carousel (actual: 9)
+14 янв. 2025 15:38:08,869  INFO StartLogger - Initializing main logic for module : #38 of 54 Icon (actual: 39)
+14 янв. 2025 15:38:08,870  INFO StartLogger - Initializing main logic for module : #39 of 54 Email (actual: 23)
+14 янв. 2025 15:38:08,905  INFO StartLogger - Initializing main logic for module : #40 of 54 Geo (actual: 34)
+14 янв. 2025 15:38:08,909  INFO StartLogger - Initializing main logic for module : #41 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:38:08,925  INFO StartLogger - Initializing main logic for module : #42 of 54 Security (actual: 24)
+14 янв. 2025 15:38:08,929  INFO StartLogger - Initializing main logic for module : #43 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:38:08,973  INFO StartLogger - Initializing main logic for module : #44 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:38:08,985  INFO StartLogger - Initializing main logic for module : #45 of 54 QZTray (actual: 32)
+14 янв. 2025 15:38:08,987  INFO StartLogger - Initializing main logic for module : #46 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:38:08,988  INFO StartLogger - Initializing main logic for module : #47 of 54 JKanban (actual: 37)
+14 янв. 2025 15:38:09,197  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:38:09,469  INFO StartLogger - Initializing main logic for module : #49 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:38:09,470  INFO StartLogger - Initializing main logic for module : #50 of 54 Chat (actual: 46)
+14 янв. 2025 15:38:09,508  INFO StartLogger - Initializing main logic for module : #51 of 54 Eval (actual: 27)
+14 янв. 2025 15:38:09,511  INFO StartLogger - Initializing main logic for module : #52 of 54 Profiler (actual: 26)
+14 янв. 2025 15:38:09,545  INFO StartLogger - Initializing main logic for module : #53 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:38:09,573  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:38:09,628  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:38:09,630  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:38:09,634  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:38:09,650  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:38:09,650  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:38:09,651  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:38:09,652  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:38:09,784  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:38:09,784  INFO StartLogger - Checking abstract
+14 янв. 2025 15:38:09,803  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:38:09,856  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:38:09,907  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:38:09,907  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:38:09,907  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:38:09,912  INFO StartLogger - Initializing indices
+14 янв. 2025 15:38:09,913  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:38:09,918  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:38:10,128  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:38:10,993  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:38:11,005  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:38:11,011  INFO StartLogger - Disabling input list
+14 янв. 2025 15:38:11,017  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:38:11,024  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:38:11,025  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:38:11,025  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:38:11,052  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:38:11,062  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:38:11,091  INFO StartLogger - Module main has been dropped
+14 янв. 2025 15:38:11,104  INFO StartLogger - Checking indexes
+14 янв. 2025 15:38:11,113  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:38:11,145  INFO StartLogger - Creating tables
+14 янв. 2025 15:38:11,148  INFO StartLogger - Updating stats
+14 янв. 2025 15:38:11,169  INFO StartLogger - Adding indexes
+14 янв. 2025 15:38:11,169  INFO StartLogger - Packing tables
+14 янв. 2025 15:38:11,169  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:38:11,465  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:38:11,925  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:38:12,103  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:38:12,120  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:38:12,891  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:38:12,944  INFO StartLogger - Reading local events links
+14 янв. 2025 15:38:12,959  INFO StartLogger - Building local events list
+14 янв. 2025 15:38:12,978  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:38:13,180  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:38:13,215  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:38:13,388  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:38:13,388  INFO StartLogger - Starting security manager
+14 янв. 2025 15:38:13,489  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:38:13,508  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:38:13,508  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:38:13,508  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:38:13,508  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:38:13,938  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:38:14,082  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:38:16,753  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:38:16,762  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:38:17,885  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:38:17,918  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:38:17,918  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:38:17,918  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:38:17,919  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:38:17,922  INFO StartLogger - Comparing modulesHash: old 324c534a, new 8df97c0c
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:38:17,922  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:38:17,923  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:38:17,923  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:38:17,925  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:38:17,926  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:38:19,996  INFO StartLogger - Synchronizing tables finished, 2074ms
+14 янв. 2025 15:38:19,997  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:38:19,997  INFO StartLogger - Writing modulesHash 8df97c0c started
+14 янв. 2025 15:38:20,025  INFO StartLogger - Writing modulesHash 8df97c0c finished, 28ms
+14 янв. 2025 15:38:20,026  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:38:20,030  INFO StartLogger - Cleaning obsolete caches finished, 4ms
+14 янв. 2025 15:38:20,030  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:38:20,050  INFO StartLogger - Executing onFinallyStarted finished, 20ms
+14 янв. 2025 15:38:20,050  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:38:20,050  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:38:20,050  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:38:20,051  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:38:20,051  INFO StartLogger - Server has successfully started in 16079 ms
+14 янв. 2025 15:42:17,708  INFO StartLogger - Server is starting...
+14 янв. 2025 15:42:17,743  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:42:18,572  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:42:18,606  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:42:18,617  INFO StartLogger - Creating modules
+14 янв. 2025 15:42:18,617  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:42:18,617  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:42:18,982  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:42:19,239  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:42:19,240  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:42:19,753  INFO StartLogger - Initializing object class
+14 янв. 2025 15:42:19,756  INFO StartLogger - Initializing tables
+14 янв. 2025 15:42:19,807  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:42:19,880  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:42:19,881  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:42:19,889  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:42:20,280  INFO StartLogger - Initializing main logic for module : #2 of 54 MasterData (actual: 7)
+14 янв. 2025 15:42:20,282  INFO StartLogger - Initializing main logic for module : #3 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:42:20,282  INFO StartLogger - Initializing main logic for module : #4 of 54 Time (actual: 2)
+14 янв. 2025 15:42:20,282  INFO StartLogger - Initializing main logic for module : #5 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:42:20,304  INFO StartLogger - Initializing main logic for module : #6 of 54 Image (actual: 11)
+14 янв. 2025 15:42:20,307  INFO StartLogger - Initializing main logic for module : #7 of 54 Printer (actual: 10)
+14 янв. 2025 15:42:20,324  INFO StartLogger - Initializing main logic for module : #8 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:42:20,327  INFO StartLogger - Initializing main logic for module : #9 of 54 Numerator (actual: 13)
+14 янв. 2025 15:42:20,335  INFO StartLogger - Initializing main logic for module : #10 of 54 Integration (actual: 45)
+14 янв. 2025 15:42:20,337  INFO StartLogger - Initializing main logic for module : #11 of 54 Com (actual: 48)
+14 янв. 2025 15:42:20,338  INFO StartLogger - Initializing main logic for module : #12 of 54 Team (actual: 18)
+14 янв. 2025 15:42:20,351  INFO StartLogger - Initializing main logic for module : #13 of 54 Sound (actual: 31)
+14 янв. 2025 15:42:20,359  INFO StartLogger - Initializing main logic for module : #14 of 54 Game (actual: 19)
+14 янв. 2025 15:42:20,368  INFO StartLogger - Initializing main logic for module : #15 of 54 Player (actual: 20)
+14 янв. 2025 15:42:20,416  INFO StartLogger - Initializing main logic for module : #16 of 54 Score (actual: 36)
+14 янв. 2025 15:42:20,417  INFO StartLogger - Initializing main logic for module : #17 of 54 Goal (actual: 21)
+14 янв. 2025 15:42:20,816  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:42:20,916  INFO StartLogger - Initializing main logic for module : #19 of 54 Excel (actual: 22)
+14 янв. 2025 15:42:20,917  INFO StartLogger - Initializing main logic for module : #20 of 54 Schedule (actual: 54)
+14 янв. 2025 15:42:20,940  INFO StartLogger - Initializing main logic for module : #21 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:42:20,944  INFO StartLogger - Initializing main logic for module : #22 of 54 Authentication (actual: 4)
+14 янв. 2025 15:42:20,967  INFO StartLogger - Initializing main logic for module : #23 of 54 I18n (actual: 30)
+14 янв. 2025 15:42:21,225  INFO StartLogger - Initializing main logic for module : #24 of 54 Reflection (actual: 5)
+14 янв. 2025 15:42:21,229  INFO StartLogger - Initializing main logic for module : #27 of 54 Historizable (actual: 16)
+14 янв. 2025 15:42:21,225  INFO StartLogger - Initializing main logic for module : #25 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:42:21,225  INFO StartLogger - Initializing main logic for module : #26 of 54 Document (actual: 14)
+14 янв. 2025 15:42:21,392  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 15:42:21,393  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:42:21,412  INFO StartLogger - Initializing main logic for module : #30 of 54 Slack (actual: 38)
+14 янв. 2025 15:42:21,426  INFO StartLogger - Initializing main logic for module : #31 of 54 Telegram (actual: 49)
+14 янв. 2025 15:42:21,443  INFO StartLogger - Initializing main logic for module : #32 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:42:21,524  INFO StartLogger - Initializing main logic for module : #33 of 54 Viber (actual: 35)
+14 янв. 2025 15:42:21,609  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 15:42:21,752  INFO StartLogger - Initializing main logic for module : #35 of 54 Icon (actual: 39)
+14 янв. 2025 15:42:21,753  INFO StartLogger - Initializing main logic for module : #36 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:42:21,758  INFO StartLogger - Initializing main logic for module : #37 of 54 Chart (actual: 47)
+14 янв. 2025 15:42:21,762  INFO StartLogger - Initializing main logic for module : #38 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:42:21,766  INFO StartLogger - Initializing main logic for module : #39 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:42:21,769  INFO StartLogger - Initializing main logic for module : #40 of 54 Email (actual: 23)
+14 янв. 2025 15:42:21,770  INFO StartLogger - Initializing main logic for module : #41 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:42:21,771  INFO StartLogger - Initializing main logic for module : #42 of 54 Geo (actual: 34)
+14 янв. 2025 15:42:21,819  INFO StartLogger - Initializing main logic for module : #43 of 54 Word (actual: 8)
+14 янв. 2025 15:42:21,830  INFO StartLogger - Initializing main logic for module : #44 of 54 QZTray (actual: 32)
+14 янв. 2025 15:42:21,847  INFO StartLogger - Initializing main logic for module : #45 of 54 Carousel (actual: 9)
+14 янв. 2025 15:42:21,848  INFO StartLogger - Initializing main logic for module : #46 of 54 JKanban (actual: 37)
+14 янв. 2025 15:42:21,866  INFO StartLogger - Initializing main logic for module : #47 of 54 Security (actual: 24)
+14 янв. 2025 15:42:22,071  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:42:22,215  INFO StartLogger - Initializing main logic for module : #49 of 54 Eval (actual: 27)
+14 янв. 2025 15:42:22,216  INFO StartLogger - Initializing main logic for module : #50 of 54 Chat (actual: 46)
+14 янв. 2025 15:42:22,242  INFO StartLogger - Initializing main logic for module : #51 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:42:22,282  INFO StartLogger - Initializing main logic for module : #52 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:42:22,304  INFO StartLogger - Initializing main logic for module : #53 of 54 Profiler (actual: 26)
+14 янв. 2025 15:42:22,375  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:42:22,418  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:42:22,423  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:42:22,425  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:42:22,441  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:42:22,441  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:42:22,442  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:42:22,462  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:42:22,653  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:42:22,656  INFO StartLogger - Checking abstract
+14 янв. 2025 15:42:22,710  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:42:22,711  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:42:22,735  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:42:22,748  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:42:22,749  INFO StartLogger - Initializing indices
+14 янв. 2025 15:42:22,767  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:42:22,842  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:42:22,920  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:42:22,921  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:42:23,836  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:42:23,851  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:42:23,860  INFO StartLogger - Disabling input list
+14 янв. 2025 15:42:23,867  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:42:23,875  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:42:23,875  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:42:23,876  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:42:23,906  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:42:23,917  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:42:23,963  INFO StartLogger - Checking indexes
+14 янв. 2025 15:42:23,971  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:42:24,015  INFO StartLogger - Creating tables
+14 янв. 2025 15:42:24,019  INFO StartLogger - Updating stats
+14 янв. 2025 15:42:24,043  INFO StartLogger - Adding indexes
+14 янв. 2025 15:42:24,043  INFO StartLogger - Packing tables
+14 янв. 2025 15:42:24,043  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:42:24,325  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:42:24,797  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:42:24,820  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:42:24,820  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:42:25,633  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:42:25,675  INFO StartLogger - Reading local events links
+14 янв. 2025 15:42:25,698  INFO StartLogger - Building local events list
+14 янв. 2025 15:42:25,775  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:42:26,005  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:42:26,033  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:42:26,182  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:42:26,182  INFO StartLogger - Starting security manager
+14 янв. 2025 15:42:26,286  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:42:26,305  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:42:26,306  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:42:26,306  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:42:26,312  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:42:26,776  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:42:26,996  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:42:29,729  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:42:29,738  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:42:30,932  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:42:30,970  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:42:30,970  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:42:30,970  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:42:30,971  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:42:30,973  INFO StartLogger - Comparing modulesHash: old 8df97c0c, new b0a3665a
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:42:30,973  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:42:30,974  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:42:30,974  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:42:30,974  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:42:33,084  INFO StartLogger - Synchronizing tables finished, 2110ms
+14 янв. 2025 15:42:33,085  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:42:33,085  INFO StartLogger - Writing modulesHash b0a3665a started
+14 янв. 2025 15:42:33,107  INFO StartLogger - Writing modulesHash b0a3665a finished, 22ms
+14 янв. 2025 15:42:33,108  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:42:33,112  INFO StartLogger - Cleaning obsolete caches finished, 4ms
+14 янв. 2025 15:42:33,112  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:42:33,135  INFO StartLogger - Executing onFinallyStarted finished, 23ms
+14 янв. 2025 15:42:33,135  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:42:33,136  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:42:33,136  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:42:33,136  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:42:33,136  INFO StartLogger - Server has successfully started in 15787 ms
+14 янв. 2025 15:45:33,356  INFO StartLogger - Server is starting...
+14 янв. 2025 15:45:33,396  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:45:34,364  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:45:34,404  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:45:34,427  INFO StartLogger - Creating modules
+14 янв. 2025 15:45:34,427  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:45:34,427  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:45:34,856  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:45:35,127  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:45:35,129  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:45:35,675  INFO StartLogger - Initializing object class
+14 янв. 2025 15:45:35,677  INFO StartLogger - Initializing tables
+14 янв. 2025 15:45:35,788  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:45:35,924  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:45:35,926  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:45:35,935  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:45:36,364  INFO StartLogger - Initializing main logic for module : #2 of 54 Team (actual: 18)
+14 янв. 2025 15:45:36,365  INFO StartLogger - Initializing main logic for module : #3 of 54 Printer (actual: 10)
+14 янв. 2025 15:45:36,367  INFO StartLogger - Initializing main logic for module : #4 of 54 Com (actual: 48)
+14 янв. 2025 15:45:36,382  INFO StartLogger - Initializing main logic for module : #5 of 54 Integration (actual: 45)
+14 янв. 2025 15:45:36,382  INFO StartLogger - Initializing main logic for module : #6 of 54 Time (actual: 2)
+14 янв. 2025 15:45:36,384  INFO StartLogger - Initializing main logic for module : #7 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:45:36,388  INFO StartLogger - Initializing main logic for module : #8 of 54 Game (actual: 19)
+14 янв. 2025 15:45:36,391  INFO StartLogger - Initializing main logic for module : #9 of 54 MasterData (actual: 7)
+14 янв. 2025 15:45:36,392  INFO StartLogger - Initializing main logic for module : #10 of 54 Image (actual: 11)
+14 янв. 2025 15:45:36,419  INFO StartLogger - Initializing main logic for module : #11 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:45:36,422  INFO StartLogger - Initializing main logic for module : #12 of 54 Numerator (actual: 13)
+14 янв. 2025 15:45:36,456  INFO StartLogger - Initializing main logic for module : #13 of 54 Player (actual: 20)
+14 янв. 2025 15:45:36,485  INFO StartLogger - Initializing main logic for module : #14 of 54 Sound (actual: 31)
+14 янв. 2025 15:45:36,488  INFO StartLogger - Initializing main logic for module : #15 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:45:36,499  INFO StartLogger - Initializing main logic for module : #16 of 54 Score (actual: 36)
+14 янв. 2025 15:45:36,499  INFO StartLogger - Initializing main logic for module : #17 of 54 Goal (actual: 21)
+14 янв. 2025 15:45:36,884  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:45:36,983  INFO StartLogger - Initializing main logic for module : #19 of 54 I18n (actual: 30)
+14 янв. 2025 15:45:36,983  INFO StartLogger - Initializing main logic for module : #20 of 54 Schedule (actual: 54)
+14 янв. 2025 15:45:36,992  INFO StartLogger - Initializing main logic for module : #21 of 54 Authentication (actual: 4)
+14 янв. 2025 15:45:37,003  INFO StartLogger - Initializing main logic for module : #22 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:45:37,007  INFO StartLogger - Initializing main logic for module : #23 of 54 Excel (actual: 22)
+14 янв. 2025 15:45:37,346  INFO StartLogger - Initializing main logic for module : #25 of 54 Document (actual: 14)
+14 янв. 2025 15:45:37,346  INFO StartLogger - Initializing main logic for module : #24 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:45:37,346  INFO StartLogger - Initializing main logic for module : #26 of 54 Reflection (actual: 5)
+14 янв. 2025 15:45:37,368  INFO StartLogger - Initializing main logic for module : #27 of 54 Historizable (actual: 16)
+14 янв. 2025 15:45:37,516  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 15:45:37,517  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:45:37,537  INFO StartLogger - Initializing main logic for module : #30 of 54 Viber (actual: 35)
+14 янв. 2025 15:45:37,567  INFO StartLogger - Initializing main logic for module : #31 of 54 Slack (actual: 38)
+14 янв. 2025 15:45:37,586  INFO StartLogger - Initializing main logic for module : #32 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:45:37,593  INFO StartLogger - Initializing main logic for module : #33 of 54 Telegram (actual: 49)
+14 янв. 2025 15:45:37,686  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 15:45:37,874  INFO StartLogger - Initializing main logic for module : #35 of 54 Email (actual: 23)
+14 янв. 2025 15:45:37,874  INFO StartLogger - Initializing main logic for module : #36 of 54 Word (actual: 8)
+14 янв. 2025 15:45:37,906  INFO StartLogger - Initializing main logic for module : #37 of 54 Chart (actual: 47)
+14 янв. 2025 15:45:37,908  INFO StartLogger - Initializing main logic for module : #38 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:45:37,917  INFO StartLogger - Initializing main logic for module : #39 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:45:37,919  INFO StartLogger - Initializing main logic for module : #40 of 54 Icon (actual: 39)
+14 янв. 2025 15:45:37,924  INFO StartLogger - Initializing main logic for module : #41 of 54 Geo (actual: 34)
+14 янв. 2025 15:45:37,926  INFO StartLogger - Initializing main logic for module : #42 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:45:37,931  INFO StartLogger - Initializing main logic for module : #43 of 54 QZTray (actual: 32)
+14 янв. 2025 15:45:37,958  INFO StartLogger - Initializing main logic for module : #44 of 54 Security (actual: 24)
+14 янв. 2025 15:45:37,960  INFO StartLogger - Initializing main logic for module : #45 of 54 Carousel (actual: 9)
+14 янв. 2025 15:45:37,961  INFO StartLogger - Initializing main logic for module : #46 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:45:37,962  INFO StartLogger - Initializing main logic for module : #47 of 54 JKanban (actual: 37)
+14 янв. 2025 15:45:38,176  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:45:38,430  INFO StartLogger - Initializing main logic for module : #49 of 54 Profiler (actual: 26)
+14 янв. 2025 15:45:38,431  INFO StartLogger - Initializing main logic for module : #50 of 54 Chat (actual: 46)
+14 янв. 2025 15:45:38,468  INFO StartLogger - Initializing main logic for module : #51 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:45:38,472  INFO StartLogger - Initializing main logic for module : #52 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:45:38,491  INFO StartLogger - Initializing main logic for module : #53 of 54 Eval (actual: 27)
+14 янв. 2025 15:45:38,606  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:45:38,637  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:45:38,637  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:45:38,637  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:45:38,658  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:45:38,659  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:45:38,659  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:45:38,722  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:45:38,761  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:45:38,775  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:45:38,775  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:45:38,781  INFO StartLogger - Checking abstract
+14 янв. 2025 15:45:38,805  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:45:38,821  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:45:39,026  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:45:39,034  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:45:39,042  INFO StartLogger - Initializing indices
+14 янв. 2025 15:45:39,042  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:45:39,048  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:45:39,942  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:45:39,956  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:45:39,965  INFO StartLogger - Disabling input list
+14 янв. 2025 15:45:39,971  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:45:39,979  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:45:39,980  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:45:39,980  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:45:40,009  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:45:40,019  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:45:40,059  INFO StartLogger - Checking indexes
+14 янв. 2025 15:45:40,066  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:45:40,119  INFO StartLogger - Creating tables
+14 янв. 2025 15:45:40,123  INFO StartLogger - Updating stats
+14 янв. 2025 15:45:40,150  INFO StartLogger - Adding indexes
+14 янв. 2025 15:45:40,150  INFO StartLogger - Packing tables
+14 янв. 2025 15:45:40,150  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:45:40,435  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:45:41,031  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:45:41,054  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:45:41,054  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:45:41,781  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:45:41,810  INFO StartLogger - Reading local events links
+14 янв. 2025 15:45:41,825  INFO StartLogger - Building local events list
+14 янв. 2025 15:45:41,846  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:45:42,034  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:45:42,064  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:45:42,382  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:45:42,382  INFO StartLogger - Starting security manager
+14 янв. 2025 15:45:42,495  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:45:42,521  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:45:42,521  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:45:42,543  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:45:42,544  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:45:43,187  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:45:43,202  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:45:45,633  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:45:45,643  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:45:47,452  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:45:47,491  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:45:47,491  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:45:47,493  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:45:47,494  INFO StartLogger - Comparing modulesHash: old b0a3665a, new 8b91d43a
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:45:47,495  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:45:47,495  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:45:47,496  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:45:47,497  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:45:47,503  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:45:49,476  INFO StartLogger - Synchronizing tables finished, 1980ms
+14 янв. 2025 15:45:49,476  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:45:49,476  INFO StartLogger - Writing modulesHash 8b91d43a started
+14 янв. 2025 15:45:49,503  INFO StartLogger - Writing modulesHash 8b91d43a finished, 27ms
+14 янв. 2025 15:45:49,504  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:45:49,518  INFO StartLogger - Cleaning obsolete caches finished, 14ms
+14 янв. 2025 15:45:49,518  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:45:49,554  INFO StartLogger - Executing onFinallyStarted finished, 36ms
+14 янв. 2025 15:45:49,554  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:45:49,556  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:45:49,556  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:45:49,556  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:45:49,556  INFO StartLogger - Server has successfully started in 16665 ms
+14 янв. 2025 15:47:31,780  INFO StartLogger - Server is starting...
+14 янв. 2025 15:47:31,814  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:47:32,927  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:47:32,963  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:47:33,069  INFO StartLogger - Creating modules
+14 янв. 2025 15:47:33,069  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:47:33,069  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:47:33,428  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:47:33,691  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:47:33,693  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:47:34,237  INFO StartLogger - Initializing object class
+14 янв. 2025 15:47:34,240  INFO StartLogger - Initializing tables
+14 янв. 2025 15:47:34,288  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:47:34,381  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:47:34,382  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:47:34,400  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:47:34,899  INFO StartLogger - Initializing main logic for module : #2 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:47:34,901  INFO StartLogger - Initializing main logic for module : #3 of 54 Team (actual: 18)
+14 янв. 2025 15:47:34,902  INFO StartLogger - Initializing main logic for module : #4 of 54 Time (actual: 2)
+14 янв. 2025 15:47:34,904  INFO StartLogger - Initializing main logic for module : #5 of 54 Printer (actual: 10)
+14 янв. 2025 15:47:34,926  INFO StartLogger - Initializing main logic for module : #6 of 54 MasterData (actual: 7)
+14 янв. 2025 15:47:34,927  INFO StartLogger - Initializing main logic for module : #7 of 54 Image (actual: 11)
+14 янв. 2025 15:47:34,944  INFO StartLogger - Initializing main logic for module : #8 of 54 Game (actual: 19)
+14 янв. 2025 15:47:34,955  INFO StartLogger - Initializing main logic for module : #9 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:47:34,994  INFO StartLogger - Initializing main logic for module : #10 of 54 Integration (actual: 45)
+14 янв. 2025 15:47:34,996  INFO StartLogger - Initializing main logic for module : #11 of 54 Player (actual: 20)
+14 янв. 2025 15:47:35,024  INFO StartLogger - Initializing main logic for module : #12 of 54 Numerator (actual: 13)
+14 янв. 2025 15:47:35,051  INFO StartLogger - Initializing main logic for module : #13 of 54 Com (actual: 48)
+14 янв. 2025 15:47:35,054  INFO StartLogger - Initializing main logic for module : #14 of 54 Sound (actual: 31)
+14 янв. 2025 15:47:35,055  INFO StartLogger - Initializing main logic for module : #15 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:47:35,082  INFO StartLogger - Initializing main logic for module : #16 of 54 Score (actual: 36)
+14 янв. 2025 15:47:35,092  INFO StartLogger - Initializing main logic for module : #17 of 54 Goal (actual: 21)
+14 янв. 2025 15:47:35,511  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:47:35,637  INFO StartLogger - Initializing main logic for module : #19 of 54 I18n (actual: 30)
+14 янв. 2025 15:47:35,638  INFO StartLogger - Initializing main logic for module : #20 of 54 Excel (actual: 22)
+14 янв. 2025 15:47:35,675  INFO StartLogger - Initializing main logic for module : #21 of 54 Schedule (actual: 54)
+14 янв. 2025 15:47:35,684  INFO StartLogger - Initializing main logic for module : #22 of 54 Authentication (actual: 4)
+14 янв. 2025 15:47:35,684  INFO StartLogger - Initializing main logic for module : #23 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:47:36,002  INFO StartLogger - Initializing main logic for module : #24 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:47:36,002  INFO StartLogger - Initializing main logic for module : #26 of 54 Reflection (actual: 5)
+14 янв. 2025 15:47:36,002  INFO StartLogger - Initializing main logic for module : #25 of 54 Historizable (actual: 16)
+14 янв. 2025 15:47:36,006  INFO StartLogger - Initializing main logic for module : #27 of 54 Document (actual: 14)
+14 янв. 2025 15:47:36,188  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 15:47:36,188  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:47:36,213  INFO StartLogger - Initializing main logic for module : #30 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:47:36,253  INFO StartLogger - Initializing main logic for module : #31 of 54 Slack (actual: 38)
+14 янв. 2025 15:47:36,264  INFO StartLogger - Initializing main logic for module : #32 of 54 Telegram (actual: 49)
+14 янв. 2025 15:47:36,369  INFO StartLogger - Initializing main logic for module : #33 of 54 Viber (actual: 35)
+14 янв. 2025 15:47:36,396  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 15:47:36,585  INFO StartLogger - Initializing main logic for module : #35 of 54 Geo (actual: 34)
+14 янв. 2025 15:47:36,586  INFO StartLogger - Initializing main logic for module : #36 of 54 Word (actual: 8)
+14 янв. 2025 15:47:36,595  INFO StartLogger - Initializing main logic for module : #37 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:47:36,596  INFO StartLogger - Initializing main logic for module : #38 of 54 Icon (actual: 39)
+14 янв. 2025 15:47:36,624  INFO StartLogger - Initializing main logic for module : #39 of 54 Email (actual: 23)
+14 янв. 2025 15:47:36,683  INFO StartLogger - Initializing main logic for module : #40 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:47:36,746  INFO StartLogger - Initializing main logic for module : #41 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:47:36,756  INFO StartLogger - Initializing main logic for module : #42 of 54 QZTray (actual: 32)
+14 янв. 2025 15:47:36,793  INFO StartLogger - Initializing main logic for module : #43 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:47:36,793  INFO StartLogger - Initializing main logic for module : #44 of 54 JKanban (actual: 37)
+14 янв. 2025 15:47:36,794  INFO StartLogger - Initializing main logic for module : #45 of 54 Chart (actual: 47)
+14 янв. 2025 15:47:36,796  INFO StartLogger - Initializing main logic for module : #46 of 54 Carousel (actual: 9)
+14 янв. 2025 15:47:36,827  INFO StartLogger - Initializing main logic for module : #47 of 54 Security (actual: 24)
+14 янв. 2025 15:47:37,137  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:47:37,294  INFO StartLogger - Initializing main logic for module : #49 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:47:37,296  INFO StartLogger - Initializing main logic for module : #50 of 54 Eval (actual: 27)
+14 янв. 2025 15:47:37,302  INFO StartLogger - Initializing main logic for module : #51 of 54 Chat (actual: 46)
+14 янв. 2025 15:47:37,330  INFO StartLogger - Initializing main logic for module : #52 of 54 Profiler (actual: 26)
+14 янв. 2025 15:47:37,497  INFO StartLogger - Initializing main logic for module : #53 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:47:37,613  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:47:37,635  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:47:37,636  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:47:37,635  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:47:37,655  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:47:37,655  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:47:37,655  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:47:37,655  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:47:37,715  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:47:37,715  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:47:37,716  INFO StartLogger - Checking abstract
+14 янв. 2025 15:47:37,777  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:47:37,832  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:47:37,842  INFO StartLogger - Initializing indices
+14 янв. 2025 15:47:37,844  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:47:37,845  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:47:37,848  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:47:38,012  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:47:38,101  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:47:39,041  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:47:39,061  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:47:39,070  INFO StartLogger - Disabling input list
+14 янв. 2025 15:47:39,080  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:47:39,097  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:47:39,099  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:47:39,099  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:47:39,138  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:47:39,164  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:47:39,217  INFO StartLogger - Checking indexes
+14 янв. 2025 15:47:39,228  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:47:39,310  INFO StartLogger - Creating tables
+14 янв. 2025 15:47:39,317  INFO StartLogger - Updating stats
+14 янв. 2025 15:47:39,387  INFO StartLogger - Adding indexes
+14 янв. 2025 15:47:39,387  INFO StartLogger - Packing tables
+14 янв. 2025 15:47:39,387  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:47:39,697  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:47:40,598  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:47:40,627  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:47:40,627  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:47:41,518  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:47:41,552  INFO StartLogger - Reading local events links
+14 янв. 2025 15:47:41,571  INFO StartLogger - Building local events list
+14 янв. 2025 15:47:41,596  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:47:41,807  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:47:41,856  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:47:42,091  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:47:42,092  INFO StartLogger - Starting security manager
+14 янв. 2025 15:47:42,188  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:47:42,205  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:47:42,205  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:47:42,205  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:47:42,478  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:47:43,120  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:47:43,935  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:47:46,533  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:47:46,543  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:47:48,018  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:47:48,051  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:47:48,051  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:47:48,051  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:47:48,051  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:47:48,053  INFO StartLogger - Comparing modulesHash: old 8b91d43a, new 5469fd14
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:47:48,053  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:47:48,054  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:47:48,054  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:47:48,054  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:47:48,054  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:47:49,975  INFO StartLogger - Synchronizing tables finished, 1921ms
+14 янв. 2025 15:47:49,975  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:47:49,976  INFO StartLogger - Writing modulesHash 5469fd14 started
+14 янв. 2025 15:47:49,997  INFO StartLogger - Writing modulesHash 5469fd14 finished, 21ms
+14 янв. 2025 15:47:49,997  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:47:50,003  INFO StartLogger - Cleaning obsolete caches finished, 6ms
+14 янв. 2025 15:47:50,003  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:47:50,025  INFO StartLogger - Executing onFinallyStarted finished, 22ms
+14 янв. 2025 15:47:50,025  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:47:50,025  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:47:50,025  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:47:50,025  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:47:50,026  INFO StartLogger - Server has successfully started in 18706 ms
+14 янв. 2025 15:50:46,774  INFO StartLogger - Server is starting...
+14 янв. 2025 15:50:46,811  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:50:47,858  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:50:47,960  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:50:47,980  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:50:47,981  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:50:47,982  INFO StartLogger - Creating modules
+14 янв. 2025 15:50:48,353  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:50:48,616  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:50:48,617  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:50:49,131  INFO StartLogger - Initializing object class
+14 янв. 2025 15:50:49,134  INFO StartLogger - Initializing tables
+14 янв. 2025 15:50:49,187  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:50:49,272  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:50:49,273  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:50:49,282  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:50:49,807  INFO StartLogger - Initializing main logic for module : #2 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:50:49,808  INFO StartLogger - Initializing main logic for module : #3 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:50:49,810  INFO StartLogger - Initializing main logic for module : #4 of 54 Time (actual: 2)
+14 янв. 2025 15:50:49,813  INFO StartLogger - Initializing main logic for module : #5 of 54 Com (actual: 48)
+14 янв. 2025 15:50:49,817  INFO StartLogger - Initializing main logic for module : #6 of 54 Printer (actual: 10)
+14 янв. 2025 15:50:49,824  INFO StartLogger - Initializing main logic for module : #7 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:50:49,824  INFO StartLogger - Initializing main logic for module : #8 of 54 MasterData (actual: 7)
+14 янв. 2025 15:50:49,825  INFO StartLogger - Initializing main logic for module : #9 of 54 Numerator (actual: 13)
+14 янв. 2025 15:50:49,850  INFO StartLogger - Initializing main logic for module : #10 of 54 Image (actual: 11)
+14 янв. 2025 15:50:49,868  INFO StartLogger - Initializing main logic for module : #11 of 54 Integration (actual: 45)
+14 янв. 2025 15:50:49,869  INFO StartLogger - Initializing main logic for module : #12 of 54 Team (actual: 18)
+14 янв. 2025 15:50:49,873  INFO StartLogger - Initializing main logic for module : #13 of 54 Game (actual: 19)
+14 янв. 2025 15:50:49,889  INFO StartLogger - Initializing main logic for module : #14 of 54 Player (actual: 20)
+14 янв. 2025 15:50:49,907  INFO StartLogger - Initializing main logic for module : #15 of 54 Sound (actual: 31)
+14 янв. 2025 15:50:49,954  INFO StartLogger - Initializing main logic for module : #16 of 54 Score (actual: 36)
+14 янв. 2025 15:50:49,986  INFO StartLogger - Initializing main logic for module : #17 of 54 Goal (actual: 21)
+14 янв. 2025 15:50:50,345  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:50:50,456  INFO StartLogger - Initializing main logic for module : #19 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:50:50,456  INFO StartLogger - Initializing main logic for module : #20 of 54 I18n (actual: 30)
+14 янв. 2025 15:50:50,463  INFO StartLogger - Initializing main logic for module : #21 of 54 Excel (actual: 22)
+14 янв. 2025 15:50:50,492  INFO StartLogger - Initializing main logic for module : #22 of 54 Authentication (actual: 4)
+14 янв. 2025 15:50:50,499  INFO StartLogger - Initializing main logic for module : #23 of 54 Schedule (actual: 54)
+14 янв. 2025 15:50:50,784  INFO StartLogger - Initializing main logic for module : #24 of 54 Reflection (actual: 5)
+14 янв. 2025 15:50:50,785  INFO StartLogger - Initializing main logic for module : #25 of 54 Historizable (actual: 16)
+14 янв. 2025 15:50:50,788  INFO StartLogger - Initializing main logic for module : #26 of 54 Document (actual: 14)
+14 янв. 2025 15:50:50,800  INFO StartLogger - Initializing main logic for module : #27 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:50:50,926  INFO StartLogger - Initializing main logic for module : #28 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:50:50,927  INFO StartLogger - Initializing main logic for module : #29 of 54 Messenger (actual: 28)
+14 янв. 2025 15:50:50,943  INFO StartLogger - Initializing main logic for module : #30 of 54 Viber (actual: 35)
+14 янв. 2025 15:50:50,957  INFO StartLogger - Initializing main logic for module : #31 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:50:50,965  INFO StartLogger - Initializing main logic for module : #32 of 54 Slack (actual: 38)
+14 янв. 2025 15:50:50,985  INFO StartLogger - Initializing main logic for module : #33 of 54 Telegram (actual: 49)
+14 янв. 2025 15:50:51,075  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 15:50:51,207  INFO StartLogger - Initializing main logic for module : #35 of 54 Word (actual: 8)
+14 янв. 2025 15:50:51,207  INFO StartLogger - Initializing main logic for module : #38 of 54 Icon (actual: 39)
+14 янв. 2025 15:50:51,207  INFO StartLogger - Initializing main logic for module : #37 of 54 QZTray (actual: 32)
+14 янв. 2025 15:50:51,207  INFO StartLogger - Initializing main logic for module : #36 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:50:51,316  INFO StartLogger - Initializing main logic for module : #39 of 54 Email (actual: 23)
+14 янв. 2025 15:50:51,322  INFO StartLogger - Initializing main logic for module : #40 of 54 Geo (actual: 34)
+14 янв. 2025 15:50:51,370  INFO StartLogger - Initializing main logic for module : #41 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:50:51,387  INFO StartLogger - Initializing main logic for module : #42 of 54 Security (actual: 24)
+14 янв. 2025 15:50:51,388  INFO StartLogger - Initializing main logic for module : #43 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:50:51,396  INFO StartLogger - Initializing main logic for module : #44 of 54 Carousel (actual: 9)
+14 янв. 2025 15:50:51,398  INFO StartLogger - Initializing main logic for module : #45 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:50:51,399  INFO StartLogger - Initializing main logic for module : #46 of 54 JKanban (actual: 37)
+14 янв. 2025 15:50:51,400  INFO StartLogger - Initializing main logic for module : #47 of 54 Chart (actual: 47)
+14 янв. 2025 15:50:51,615  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:50:51,854  INFO StartLogger - Initializing main logic for module : #49 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:50:51,856  INFO StartLogger - Initializing main logic for module : #50 of 54 Chat (actual: 46)
+14 янв. 2025 15:50:51,929  INFO StartLogger - Initializing main logic for module : #51 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:50:51,957  INFO StartLogger - Initializing main logic for module : #52 of 54 Profiler (actual: 26)
+14 янв. 2025 15:50:51,973  INFO StartLogger - Initializing main logic for module : #53 of 54 Eval (actual: 27)
+14 янв. 2025 15:50:52,141  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:50:52,199  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:50:52,199  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:50:52,200  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:50:52,218  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:50:52,218  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:50:52,218  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:50:52,218  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:50:52,273  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:50:52,274  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:50:52,273  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:50:52,331  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:50:52,331  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:50:52,332  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:50:52,574  INFO StartLogger - Checking abstract
+14 янв. 2025 15:50:52,598  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:50:52,600  INFO StartLogger - Initializing indices
+14 янв. 2025 15:50:52,602  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:50:52,607  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:50:53,617  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:50:53,630  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:50:53,638  INFO StartLogger - Disabling input list
+14 янв. 2025 15:50:53,645  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:50:53,653  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:50:53,653  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:50:53,653  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:50:53,670  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:50:53,686  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:50:53,755  INFO StartLogger - Checking indexes
+14 янв. 2025 15:50:53,770  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:50:53,939  INFO StartLogger - Creating tables
+14 янв. 2025 15:50:53,944  INFO StartLogger - Updating stats
+14 янв. 2025 15:50:53,974  INFO StartLogger - Adding indexes
+14 янв. 2025 15:50:53,975  INFO StartLogger - Packing tables
+14 янв. 2025 15:50:53,975  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:50:54,234  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:50:55,087  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:50:55,118  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:50:55,118  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:50:56,135  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:50:56,165  INFO StartLogger - Reading local events links
+14 янв. 2025 15:50:56,183  INFO StartLogger - Building local events list
+14 янв. 2025 15:50:56,205  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:50:56,432  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:50:56,474  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:50:56,642  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:50:56,643  INFO StartLogger - Starting security manager
+14 янв. 2025 15:50:56,748  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:50:56,772  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:50:56,772  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:50:56,773  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:50:56,858  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:50:57,406  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:50:57,454  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:51:00,025  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:51:00,039  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:51:02,100  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:51:02,141  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:51:02,141  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:51:02,141  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:51:02,143  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:51:02,143  INFO StartLogger - Comparing modulesHash: old 5469fd14, new 3f43322a
+14 янв. 2025 15:51:02,143  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:51:02,143  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:51:02,143  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:51:02,143  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:51:02,143  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:51:02,144  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:51:02,144  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:51:02,144  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:51:02,144  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:51:02,144  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:51:02,145  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:51:04,175  INFO StartLogger - Synchronizing tables finished, 2031ms
+14 янв. 2025 15:51:04,176  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:51:04,177  INFO StartLogger - Writing modulesHash 3f43322a started
+14 янв. 2025 15:51:04,200  INFO StartLogger - Writing modulesHash 3f43322a finished, 23ms
+14 янв. 2025 15:51:04,201  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:51:04,206  INFO StartLogger - Cleaning obsolete caches finished, 5ms
+14 янв. 2025 15:51:04,206  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:51:04,233  INFO StartLogger - Executing onFinallyStarted finished, 27ms
+14 янв. 2025 15:51:04,233  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:51:04,234  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:51:04,234  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:51:04,234  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:51:04,234  INFO StartLogger - Server has successfully started in 17923 ms
+14 янв. 2025 15:52:22,651  INFO StartLogger - Server is starting...
+14 янв. 2025 15:52:22,688  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:52:23,718  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:52:23,755  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:52:23,767  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:52:23,767  INFO StartLogger - Creating modules
+14 янв. 2025 15:52:23,767  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:52:24,195  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:52:24,477  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:52:24,479  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:52:25,094  INFO StartLogger - Initializing object class
+14 янв. 2025 15:52:25,096  INFO StartLogger - Initializing tables
+14 янв. 2025 15:52:25,169  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:52:25,291  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:52:25,292  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:52:25,306  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:52:25,808  INFO StartLogger - Initializing main logic for module : #2 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:52:25,808  INFO StartLogger - Initializing main logic for module : #5 of 54 Time (actual: 2)
+14 янв. 2025 15:52:25,808  INFO StartLogger - Initializing main logic for module : #4 of 54 Integration (actual: 45)
+14 янв. 2025 15:52:25,808  INFO StartLogger - Initializing main logic for module : #3 of 54 Image (actual: 11)
+14 янв. 2025 15:52:25,812  INFO StartLogger - Initializing main logic for module : #6 of 54 Printer (actual: 10)
+14 янв. 2025 15:52:25,820  INFO StartLogger - Initializing main logic for module : #7 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:52:25,848  INFO StartLogger - Initializing main logic for module : #8 of 54 MasterData (actual: 7)
+14 янв. 2025 15:52:25,850  INFO StartLogger - Initializing main logic for module : #9 of 54 Com (actual: 48)
+14 янв. 2025 15:52:25,851  INFO StartLogger - Initializing main logic for module : #10 of 54 Numerator (actual: 13)
+14 янв. 2025 15:52:25,854  INFO StartLogger - Initializing main logic for module : #11 of 54 Team (actual: 18)
+14 янв. 2025 15:52:25,875  INFO StartLogger - Initializing main logic for module : #12 of 54 Game (actual: 19)
+14 янв. 2025 15:52:25,931  INFO StartLogger - Initializing main logic for module : #13 of 54 Player (actual: 20)
+14 янв. 2025 15:52:25,953  INFO StartLogger - Initializing main logic for module : #14 of 54 Sound (actual: 31)
+14 янв. 2025 15:52:25,954  INFO StartLogger - Initializing main logic for module : #15 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:52:25,958  INFO StartLogger - Initializing main logic for module : #16 of 54 Score (actual: 36)
+14 янв. 2025 15:52:25,960  INFO StartLogger - Initializing main logic for module : #17 of 54 Goal (actual: 21)
+14 янв. 2025 15:52:26,427  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:52:26,579  INFO StartLogger - Initializing main logic for module : #19 of 54 Excel (actual: 22)
+14 янв. 2025 15:52:26,580  INFO StartLogger - Initializing main logic for module : #20 of 54 Authentication (actual: 4)
+14 янв. 2025 15:52:26,589  INFO StartLogger - Initializing main logic for module : #21 of 54 I18n (actual: 30)
+14 янв. 2025 15:52:26,594  INFO StartLogger - Initializing main logic for module : #22 of 54 Schedule (actual: 54)
+14 янв. 2025 15:52:26,605  INFO StartLogger - Initializing main logic for module : #23 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:52:26,877  INFO StartLogger - Initializing main logic for module : #24 of 54 Historizable (actual: 16)
+14 янв. 2025 15:52:26,877  INFO StartLogger - Initializing main logic for module : #27 of 54 Reflection (actual: 5)
+14 янв. 2025 15:52:26,877  INFO StartLogger - Initializing main logic for module : #26 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:52:26,877  INFO StartLogger - Initializing main logic for module : #25 of 54 Document (actual: 14)
+14 янв. 2025 15:52:27,091  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 15:52:27,092  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:52:27,138  INFO StartLogger - Initializing main logic for module : #30 of 54 Telegram (actual: 49)
+14 янв. 2025 15:52:27,162  INFO StartLogger - Initializing main logic for module : #31 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:52:27,169  INFO StartLogger - Initializing main logic for module : #32 of 54 Slack (actual: 38)
+14 янв. 2025 15:52:27,180  INFO StartLogger - Initializing main logic for module : #33 of 54 Viber (actual: 35)
+14 янв. 2025 15:52:27,201  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 15:52:27,438  INFO StartLogger - Initializing main logic for module : #35 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:52:27,439  INFO StartLogger - Initializing main logic for module : #36 of 54 Geo (actual: 34)
+14 янв. 2025 15:52:27,450  INFO StartLogger - Initializing main logic for module : #37 of 54 Email (actual: 23)
+14 янв. 2025 15:52:27,463  INFO StartLogger - Initializing main logic for module : #38 of 54 Word (actual: 8)
+14 янв. 2025 15:52:27,485  INFO StartLogger - Initializing main logic for module : #39 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:52:27,487  INFO StartLogger - Initializing main logic for module : #40 of 54 Icon (actual: 39)
+14 янв. 2025 15:52:27,501  INFO StartLogger - Initializing main logic for module : #41 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:52:27,505  INFO StartLogger - Initializing main logic for module : #42 of 54 QZTray (actual: 32)
+14 янв. 2025 15:52:27,513  INFO StartLogger - Initializing main logic for module : #43 of 54 Carousel (actual: 9)
+14 янв. 2025 15:52:27,514  INFO StartLogger - Initializing main logic for module : #44 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:52:27,619  INFO StartLogger - Initializing main logic for module : #45 of 54 JKanban (actual: 37)
+14 янв. 2025 15:52:27,622  INFO StartLogger - Initializing main logic for module : #46 of 54 Chart (actual: 47)
+14 янв. 2025 15:52:27,739  INFO StartLogger - Initializing main logic for module : #47 of 54 Security (actual: 24)
+14 янв. 2025 15:52:28,175  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:52:28,474  INFO StartLogger - Initializing main logic for module : #49 of 54 Eval (actual: 27)
+14 янв. 2025 15:52:28,493  INFO StartLogger - Initializing main logic for module : #50 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:52:28,508  INFO StartLogger - Initializing main logic for module : #51 of 54 Profiler (actual: 26)
+14 янв. 2025 15:52:28,514  INFO StartLogger - Initializing main logic for module : #52 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:52:28,518  INFO StartLogger - Initializing main logic for module : #53 of 54 Chat (actual: 46)
+14 янв. 2025 15:52:28,735  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:52:28,761  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:52:28,762  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:52:28,765  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:52:28,791  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:52:28,857  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:52:28,858  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:52:28,858  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:52:28,902  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:52:28,902  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:52:28,902  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:52:28,978  INFO StartLogger - Checking abstract
+14 янв. 2025 15:52:29,030  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:52:29,030  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:52:29,042  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:52:29,048  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:52:29,048  INFO StartLogger - Initializing indices
+14 янв. 2025 15:52:29,055  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:52:29,263  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:52:30,218  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:52:30,231  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:52:30,239  INFO StartLogger - Disabling input list
+14 янв. 2025 15:52:30,246  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:52:30,259  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:52:30,259  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:52:30,259  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:52:30,294  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:52:30,305  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:52:30,353  INFO StartLogger - Checking indexes
+14 янв. 2025 15:52:30,360  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:52:30,411  INFO StartLogger - Creating tables
+14 янв. 2025 15:52:30,418  INFO StartLogger - Updating stats
+14 янв. 2025 15:52:30,443  INFO StartLogger - Adding indexes
+14 янв. 2025 15:52:30,444  INFO StartLogger - Packing tables
+14 янв. 2025 15:52:30,444  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:52:30,764  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:52:31,253  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:52:31,279  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:52:31,279  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:52:32,008  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:52:32,037  INFO StartLogger - Reading local events links
+14 янв. 2025 15:52:32,052  INFO StartLogger - Building local events list
+14 янв. 2025 15:52:32,072  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:52:32,240  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:52:32,278  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:52:32,438  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:52:32,438  INFO StartLogger - Starting security manager
+14 янв. 2025 15:52:32,540  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:52:32,559  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:52:32,559  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:52:32,559  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:52:32,612  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:52:33,053  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:52:33,200  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:52:34,747  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:52:34,757  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:52:39,620  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:52:39,759  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:52:39,759  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:52:39,759  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:52:39,759  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:52:39,762  INFO StartLogger - Comparing modulesHash: old 3f43322a, new f04c842
+14 янв. 2025 15:52:39,762  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:52:39,762  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:52:39,762  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:52:39,762  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:52:39,762  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:52:39,763  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:52:39,763  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:52:39,763  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:52:39,763  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:52:39,763  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:52:39,764  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:52:42,512  INFO StartLogger - Synchronizing tables finished, 2749ms
+14 янв. 2025 15:52:42,512  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:52:42,513  INFO StartLogger - Writing modulesHash f04c842 started
+14 янв. 2025 15:52:42,530  INFO StartLogger - Writing modulesHash f04c842 finished, 17ms
+14 янв. 2025 15:52:42,530  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:52:42,536  INFO StartLogger - Cleaning obsolete caches finished, 6ms
+14 янв. 2025 15:52:42,537  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:52:42,560  INFO StartLogger - Executing onFinallyStarted finished, 23ms
+14 янв. 2025 15:52:42,560  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:52:42,560  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:52:42,560  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:52:42,560  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:52:42,561  INFO StartLogger - Server has successfully started in 20425 ms
+14 янв. 2025 15:54:25,711  INFO StartLogger - Server is starting...
+14 янв. 2025 15:54:25,748  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:54:26,582  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:54:26,614  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:54:26,629  INFO StartLogger - Creating modules
+14 янв. 2025 15:54:26,629  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:54:26,629  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:54:27,013  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:54:27,280  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:54:27,284 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: [error]:	there is a circular dependency between required modules: Goal <- Game <- Goal
+	at lsfusion.server.physics.dev.module.ModuleList.checkCycles(ModuleList.java:147)
+	at lsfusion.server.physics.dev.module.ModuleList.buildModuleGraphWithOrderDependencies(ModuleList.java:44)
+	at lsfusion.server.physics.dev.module.ModuleList.orderModules(ModuleList.java:37)
+	at lsfusion.server.logics.BusinessLogics.initModuleOrders(BusinessLogics.java:421)
+	at lsfusion.server.physics.dev.module.controller.init.InitModuleOrderTask.run(InitModuleOrderTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:154)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:112)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:476)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:558)
+14 янв. 2025 15:54:27,287  INFO StartLogger - Error starting server, server will be stopped
+14 янв. 2025 15:54:27,287  INFO StartLogger - Server is stopping...
+14 янв. 2025 15:54:27,287  INFO StartLogger - Logics instance is stopping...
+14 янв. 2025 15:54:27,287  INFO StartLogger - Logics instance has stopped...
+14 янв. 2025 15:54:27,288  INFO StartLogger - Server has stopped...
+14 янв. 2025 15:59:26,625  INFO StartLogger - Server is starting...
+14 янв. 2025 15:59:26,662  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 15:59:27,609  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 15:59:27,653  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 15:59:27,665  INFO StartLogger - Initializing localizer
+14 янв. 2025 15:59:27,665  INFO StartLogger - Creating modules
+14 янв. 2025 15:59:27,667  INFO StartLogger - Initializing string literals data
+14 янв. 2025 15:59:28,065  INFO StartLogger - Initializing dependencies
+14 янв. 2025 15:59:28,339  INFO StartLogger - Initializing modules order
+14 янв. 2025 15:59:28,341  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 15:59:28,937  INFO StartLogger - Initializing object class
+14 янв. 2025 15:59:28,939  INFO StartLogger - Initializing tables
+14 янв. 2025 15:59:29,004  INFO StartLogger - Initializing class tables
+14 янв. 2025 15:59:29,092  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 15:59:29,093  INFO StartLogger - Initializing main logic
+14 янв. 2025 15:59:29,104  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 15:59:29,824  INFO StartLogger - Initializing main logic for module : #2 of 54 DefaultData (actual: 12)
+14 янв. 2025 15:59:29,825  INFO StartLogger - Initializing main logic for module : #3 of 54 Sound (actual: 31)
+14 янв. 2025 15:59:29,836  INFO StartLogger - Initializing main logic for module : #4 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 15:59:29,836  INFO StartLogger - Initializing main logic for module : #5 of 54 Integration (actual: 45)
+14 янв. 2025 15:59:29,838  INFO StartLogger - Initializing main logic for module : #6 of 54 Time (actual: 2)
+14 янв. 2025 15:59:29,901  INFO StartLogger - Initializing main logic for module : #7 of 54 Com (actual: 48)
+14 янв. 2025 15:59:29,904  INFO StartLogger - Initializing main logic for module : #8 of 54 MasterData (actual: 7)
+14 янв. 2025 15:59:29,909  INFO StartLogger - Initializing main logic for module : #9 of 54 Numerator (actual: 13)
+14 янв. 2025 15:59:29,957  INFO StartLogger - Initializing main logic for module : #10 of 54 Team (actual: 18)
+14 янв. 2025 15:59:29,983  INFO StartLogger - Initializing main logic for module : #11 of 54 Game (actual: 19)
+14 янв. 2025 15:59:30,011  INFO StartLogger - Initializing main logic for module : #12 of 54 Printer (actual: 10)
+14 янв. 2025 15:59:30,118  INFO StartLogger - Initializing main logic for module : #13 of 54 UserEvents (actual: 15)
+14 янв. 2025 15:59:30,119  INFO StartLogger - Initializing main logic for module : #14 of 54 Image (actual: 11)
+14 янв. 2025 15:59:30,148  INFO StartLogger - Initializing main logic for module : #15 of 54 Player (actual: 20)
+14 янв. 2025 15:59:30,192  INFO StartLogger - Initializing main logic for module : #16 of 54 Goal (actual: 21)
+14 янв. 2025 15:59:30,192  INFO StartLogger - Initializing main logic for module : #17 of 54 Score (actual: 36)
+14 янв. 2025 15:59:30,502  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 15:59:30,656  INFO StartLogger - Initializing main logic for module : #19 of 54 I18n (actual: 30)
+14 янв. 2025 15:59:30,658  INFO StartLogger - Initializing main logic for module : #20 of 54 Excel (actual: 22)
+14 янв. 2025 15:59:30,682  INFO StartLogger - Initializing main logic for module : #21 of 54 Hierarchy (actual: 17)
+14 янв. 2025 15:59:30,683  INFO StartLogger - Initializing main logic for module : #22 of 54 Schedule (actual: 54)
+14 янв. 2025 15:59:30,689  INFO StartLogger - Initializing main logic for module : #23 of 54 Authentication (actual: 4)
+14 янв. 2025 15:59:30,967  INFO StartLogger - Initializing main logic for module : #24 of 54 Document (actual: 14)
+14 янв. 2025 15:59:30,967  INFO StartLogger - Initializing main logic for module : #27 of 54 Reflection (actual: 5)
+14 янв. 2025 15:59:30,967  INFO StartLogger - Initializing main logic for module : #26 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 15:59:30,967  INFO StartLogger - Initializing main logic for module : #25 of 54 Historizable (actual: 16)
+14 янв. 2025 15:59:31,231  INFO StartLogger - Initializing main logic for module : #28 of 54 SystemEvents (actual: 6)
+14 янв. 2025 15:59:31,232  INFO StartLogger - Initializing main logic for module : #29 of 54 Messenger (actual: 28)
+14 янв. 2025 15:59:31,258  INFO StartLogger - Initializing main logic for module : #30 of 54 Slack (actual: 38)
+14 янв. 2025 15:59:31,273  INFO StartLogger - Initializing main logic for module : #31 of 54 Telegram (actual: 49)
+14 янв. 2025 15:59:31,284  INFO StartLogger - Initializing main logic for module : #32 of 54 Whatsapp (actual: 29)
+14 янв. 2025 15:59:31,327  INFO StartLogger - Initializing main logic for module : #33 of 54 Viber (actual: 35)
+14 янв. 2025 15:59:31,344  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 15:59:31,592  INFO StartLogger - Initializing main logic for module : #36 of 54 Chart (actual: 47)
+14 янв. 2025 15:59:31,592  INFO StartLogger - Initializing main logic for module : #37 of 54 Icon (actual: 39)
+14 янв. 2025 15:59:31,592  INFO StartLogger - Initializing main logic for module : #35 of 54 JKanban (actual: 37)
+14 янв. 2025 15:59:31,593  INFO StartLogger - Initializing main logic for module : #38 of 54 Email (actual: 23)
+14 янв. 2025 15:59:31,650  INFO StartLogger - Initializing main logic for module : #39 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 15:59:31,651  INFO StartLogger - Initializing main logic for module : #40 of 54 Geo (actual: 34)
+14 янв. 2025 15:59:31,652  INFO StartLogger - Initializing main logic for module : #41 of 54 Word (actual: 8)
+14 янв. 2025 15:59:31,721  INFO StartLogger - Initializing main logic for module : #42 of 54 WebSocket (actual: 50)
+14 янв. 2025 15:59:31,732  INFO StartLogger - Initializing main logic for module : #43 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 15:59:31,733  INFO StartLogger - Initializing main logic for module : #44 of 54 Security (actual: 24)
+14 янв. 2025 15:59:31,736  INFO StartLogger - Initializing main logic for module : #45 of 54 OpenCV (actual: 53)
+14 янв. 2025 15:59:31,742  INFO StartLogger - Initializing main logic for module : #46 of 54 QZTray (actual: 32)
+14 янв. 2025 15:59:31,770  INFO StartLogger - Initializing main logic for module : #47 of 54 Carousel (actual: 9)
+14 янв. 2025 15:59:32,149  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 15:59:32,326  INFO StartLogger - Initializing main logic for module : #49 of 54 Profiler (actual: 26)
+14 янв. 2025 15:59:32,327  INFO StartLogger - Initializing main logic for module : #50 of 54 Eval (actual: 27)
+14 янв. 2025 15:59:32,389  INFO StartLogger - Initializing main logic for module : #51 of 54 SQLUtils (actual: 44)
+14 янв. 2025 15:59:32,390  INFO StartLogger - Initializing main logic for module : #52 of 54 Scheduler (actual: 41)
+14 янв. 2025 15:59:32,400  INFO StartLogger - Initializing main logic for module : #53 of 54 Chat (actual: 46)
+14 янв. 2025 15:59:32,592  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 15:59:32,668  INFO StartLogger - Finalizing classes
+14 янв. 2025 15:59:32,668  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 15:59:32,668  INFO StartLogger - Finalizing groups
+14 янв. 2025 15:59:32,690  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 15:59:32,690  INFO StartLogger - Filling implicit cases
+14 янв. 2025 15:59:32,690  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 15:59:32,691  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 15:59:32,772  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 15:59:32,773  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 15:59:32,794  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 15:59:32,850  INFO StartLogger - Checking abstract
+14 янв. 2025 15:59:32,955  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 15:59:32,955  INFO StartLogger - Setting up drill-down
+14 янв. 2025 15:59:32,957  INFO StartLogger - Setting up property policy
+14 янв. 2025 15:59:33,125  INFO StartLogger - Initializing indices
+14 янв. 2025 15:59:33,128  INFO StartLogger - Finalizing tables
+14 янв. 2025 15:59:33,138  INFO StartLogger - Initializing reflection events
+14 янв. 2025 15:59:33,225  INFO StartLogger - Setting up action policy
+14 янв. 2025 15:59:34,270  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 15:59:34,288  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 15:59:34,297  INFO StartLogger - Disabling input list
+14 янв. 2025 15:59:34,303  INFO StartLogger - Setting user select for properties
+14 янв. 2025 15:59:34,311  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 15:59:34,315  INFO StartLogger - Setting up loggables
+14 янв. 2025 15:59:34,315  INFO StartLogger - Finalizing forms
+14 янв. 2025 15:59:34,351  INFO StartLogger - Finalizing properties
+14 янв. 2025 15:59:34,361  INFO StartLogger - Synchronizing DB
+14 янв. 2025 15:59:34,407  INFO StartLogger - Checking indexes
+14 янв. 2025 15:59:34,418  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 15:59:34,539  INFO StartLogger - Creating tables
+14 янв. 2025 15:59:34,583  INFO StartLogger - Updating stats
+14 янв. 2025 15:59:34,631  INFO StartLogger - Adding indexes
+14 янв. 2025 15:59:34,631  INFO StartLogger - Packing tables
+14 янв. 2025 15:59:34,631  INFO StartLogger - Filling static objects ids
+14 янв. 2025 15:59:34,904  INFO StartLogger - Prereading form property events
+14 янв. 2025 15:59:35,557  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 15:59:35,586  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 15:59:35,586  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 15:59:36,448  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 15:59:36,478  INFO StartLogger - Reading local events links
+14 янв. 2025 15:59:36,495  INFO StartLogger - Building local events list
+14 янв. 2025 15:59:36,521  INFO StartLogger - Writing static objects changes
+14 янв. 2025 15:59:37,084  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 15:59:37,126  INFO StartLogger - Recalculating materializations
+14 янв. 2025 15:59:37,345  INFO StartLogger - Initializing security manager
+14 янв. 2025 15:59:37,345  INFO StartLogger - Starting security manager
+14 янв. 2025 15:59:37,443  INFO StartLogger - Starting RMI manager
+14 янв. 2025 15:59:37,467  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 15:59:37,467  INFO StartLogger - Synchronizing icons
+14 янв. 2025 15:59:37,467  INFO StartLogger - Executing onInit action
+14 янв. 2025 15:59:37,811  INFO StartLogger - Executing onStarted action
+14 янв. 2025 15:59:38,016  INFO StartLogger - Prereading auto icons
+14 янв. 2025 15:59:38,309  INFO StartLogger - Starting Scheduler
+14 янв. 2025 15:59:39,532  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 15:59:39,544  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 15:59:46,277  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 15:59:46,383  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 15:59:46,383  INFO StartLogger - Prereading properties graph
+14 янв. 2025 15:59:46,384  INFO StartLogger - Reading modules hash
+14 янв. 2025 15:59:46,386  INFO StartLogger - Comparing modulesHash: old f04c842, new a9d52df1
+14 янв. 2025 15:59:46,386  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 15:59:46,386  INFO StartLogger - Synchronizing forms
+14 янв. 2025 15:59:46,386  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing tables
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing parents
+14 янв. 2025 15:59:46,387  INFO StartLogger - Prereading security policies
+14 янв. 2025 15:59:46,387  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 15:59:46,402  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 15:59:49,400  INFO StartLogger - Synchronizing tables finished, 3013ms
+14 янв. 2025 15:59:49,401  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 15:59:49,401  INFO StartLogger - Writing modulesHash a9d52df1 started
+14 янв. 2025 15:59:49,421  INFO StartLogger - Writing modulesHash a9d52df1 finished, 20ms
+14 янв. 2025 15:59:49,421  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 15:59:49,428  INFO StartLogger - Cleaning obsolete caches finished, 7ms
+14 янв. 2025 15:59:49,428  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 15:59:49,452  INFO StartLogger - Executing onFinallyStarted finished, 24ms
+14 янв. 2025 15:59:49,452  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 15:59:49,453  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 15:59:49,453  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 15:59:49,453  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 15:59:49,453  INFO StartLogger - Server has successfully started in 23241 ms
+14 янв. 2025 16:01:55,888  INFO StartLogger - Server is starting...
+14 янв. 2025 16:01:55,929  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 16:01:56,899  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 16:01:56,942  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 16:01:56,953  INFO StartLogger - Initializing localizer
+14 янв. 2025 16:01:56,953  INFO StartLogger - Creating modules
+14 янв. 2025 16:01:56,953  INFO StartLogger - Initializing string literals data
+14 янв. 2025 16:01:57,314  INFO StartLogger - Initializing dependencies
+14 янв. 2025 16:01:57,586  INFO StartLogger - Initializing modules order
+14 янв. 2025 16:01:57,587  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 16:01:58,130  INFO StartLogger - Initializing object class
+14 янв. 2025 16:01:58,135  INFO StartLogger - Initializing tables
+14 янв. 2025 16:01:58,194  INFO StartLogger - Initializing class tables
+14 янв. 2025 16:01:58,297  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 16:01:58,298  INFO StartLogger - Initializing main logic
+14 янв. 2025 16:01:58,311  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 16:01:58,797  INFO StartLogger - Initializing main logic for module : #2 of 54 Team (actual: 18)
+14 янв. 2025 16:01:58,797  INFO StartLogger - Initializing main logic for module : #3 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 16:01:58,797  INFO StartLogger - Initializing main logic for module : #4 of 54 Image (actual: 11)
+14 янв. 2025 16:01:58,802  INFO StartLogger - Initializing main logic for module : #5 of 54 Integration (actual: 45)
+14 янв. 2025 16:01:58,806  INFO StartLogger - Initializing main logic for module : #6 of 54 Time (actual: 2)
+14 янв. 2025 16:01:58,816  INFO StartLogger - Initializing main logic for module : #7 of 54 Game (actual: 19)
+14 янв. 2025 16:01:58,817  INFO StartLogger - Initializing main logic for module : #8 of 54 Player (actual: 20)
+14 янв. 2025 16:01:58,849  INFO StartLogger - Initializing main logic for module : #9 of 54 MasterData (actual: 7)
+14 янв. 2025 16:01:58,857  INFO StartLogger - Initializing main logic for module : #10 of 54 Goal (actual: 21)
+14 янв. 2025 16:01:58,862  INFO StartLogger - Initializing main logic for module : #11 of 54 Score (actual: 36)
+14 янв. 2025 16:01:58,874  INFO StartLogger - Initializing main logic for module : #12 of 54 Printer (actual: 10)
+14 янв. 2025 16:01:58,874  INFO StartLogger - Initializing main logic for module : #13 of 54 UserEvents (actual: 15)
+14 янв. 2025 16:01:58,901  INFO StartLogger - Initializing main logic for module : #14 of 54 DefaultData (actual: 12)
+14 янв. 2025 16:01:58,905  INFO StartLogger - Initializing main logic for module : #15 of 54 Numerator (actual: 13)
+14 янв. 2025 16:01:58,922  INFO StartLogger - Initializing main logic for module : #16 of 54 Com (actual: 48)
+14 янв. 2025 16:01:58,924  INFO StartLogger - Initializing main logic for module : #17 of 54 Sound (actual: 31)
+14 янв. 2025 16:01:59,356  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 16:01:59,477  INFO StartLogger - Initializing main logic for module : #19 of 54 Excel (actual: 22)
+14 янв. 2025 16:01:59,477  INFO StartLogger - Initializing main logic for module : #20 of 54 Authentication (actual: 4)
+14 янв. 2025 16:01:59,484  INFO StartLogger - Initializing main logic for module : #21 of 54 Schedule (actual: 54)
+14 янв. 2025 16:01:59,494  INFO StartLogger - Initializing main logic for module : #22 of 54 I18n (actual: 30)
+14 янв. 2025 16:01:59,512  INFO StartLogger - Initializing main logic for module : #23 of 54 Hierarchy (actual: 17)
+14 янв. 2025 16:01:59,806  INFO StartLogger - Initializing main logic for module : #24 of 54 Document (actual: 14)
+14 янв. 2025 16:01:59,807  INFO StartLogger - Initializing main logic for module : #27 of 54 Reflection (actual: 5)
+14 янв. 2025 16:01:59,806  INFO StartLogger - Initializing main logic for module : #26 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 16:01:59,806  INFO StartLogger - Initializing main logic for module : #25 of 54 Historizable (actual: 16)
+14 янв. 2025 16:01:59,978  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 16:01:59,979  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 16:01:59,997  INFO StartLogger - Initializing main logic for module : #30 of 54 Slack (actual: 38)
+14 янв. 2025 16:02:00,040  INFO StartLogger - Initializing main logic for module : #31 of 54 Whatsapp (actual: 29)
+14 янв. 2025 16:02:00,048  INFO StartLogger - Initializing main logic for module : #32 of 54 Telegram (actual: 49)
+14 янв. 2025 16:02:00,115  INFO StartLogger - Initializing main logic for module : #33 of 54 Viber (actual: 35)
+14 янв. 2025 16:02:00,124  INFO StartLogger - Initializing main logic for module : #34 of 54 Skype (actual: 52)
+14 янв. 2025 16:02:00,370  INFO StartLogger - Initializing main logic for module : #35 of 54 JKanban (actual: 37)
+14 янв. 2025 16:02:00,370  INFO StartLogger - Initializing main logic for module : #38 of 54 Icon (actual: 39)
+14 янв. 2025 16:02:00,370  INFO StartLogger - Initializing main logic for module : #37 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 16:02:00,371  INFO StartLogger - Initializing main logic for module : #39 of 54 Email (actual: 23)
+14 янв. 2025 16:02:00,370  INFO StartLogger - Initializing main logic for module : #36 of 54 Geo (actual: 34)
+14 янв. 2025 16:02:00,371  INFO StartLogger - Initializing main logic for module : #40 of 54 Word (actual: 8)
+14 янв. 2025 16:02:00,449  INFO StartLogger - Initializing main logic for module : #41 of 54 WebSocket (actual: 50)
+14 янв. 2025 16:02:00,463  INFO StartLogger - Initializing main logic for module : #42 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 16:02:00,471  INFO StartLogger - Initializing main logic for module : #43 of 54 OpenCV (actual: 53)
+14 янв. 2025 16:02:00,486  INFO StartLogger - Initializing main logic for module : #44 of 54 QZTray (actual: 32)
+14 янв. 2025 16:02:00,490  INFO StartLogger - Initializing main logic for module : #45 of 54 Security (actual: 24)
+14 янв. 2025 16:02:00,528  INFO StartLogger - Initializing main logic for module : #46 of 54 Carousel (actual: 9)
+14 янв. 2025 16:02:00,531  INFO StartLogger - Initializing main logic for module : #47 of 54 Chart (actual: 47)
+14 янв. 2025 16:02:00,692  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 16:02:00,878  INFO StartLogger - Initializing main logic for module : #49 of 54 Scheduler (actual: 41)
+14 янв. 2025 16:02:00,879  INFO StartLogger - Initializing main logic for module : #50 of 54 Chat (actual: 46)
+14 янв. 2025 16:02:00,906  INFO StartLogger - Initializing main logic for module : #51 of 54 Eval (actual: 27)
+14 янв. 2025 16:02:00,907  INFO StartLogger - Initializing main logic for module : #52 of 54 Profiler (actual: 26)
+14 янв. 2025 16:02:00,969  INFO StartLogger - Initializing main logic for module : #53 of 54 SQLUtils (actual: 44)
+14 янв. 2025 16:02:01,065  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 16:02:01,092  INFO StartLogger - Finalizing groups
+14 янв. 2025 16:02:01,092  INFO StartLogger - Finalizing classes
+14 янв. 2025 16:02:01,093  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 16:02:01,113  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 16:02:01,116  INFO StartLogger - Filling implicit cases
+14 янв. 2025 16:02:01,116  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 16:02:01,178  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 16:02:01,190  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 16:02:01,210  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 16:02:01,210  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 16:02:01,296  INFO StartLogger - Checking abstract
+14 янв. 2025 16:02:01,328  INFO StartLogger - Setting up drill-down
+14 янв. 2025 16:02:01,332  INFO StartLogger - Setting up property policy
+14 янв. 2025 16:02:01,332  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 16:02:01,492  INFO StartLogger - Initializing indices
+14 янв. 2025 16:02:01,519  INFO StartLogger - Finalizing tables
+14 янв. 2025 16:02:01,523  INFO StartLogger - Initializing reflection events
+14 янв. 2025 16:02:01,541  INFO StartLogger - Setting up action policy
+14 янв. 2025 16:02:02,418  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 16:02:02,440  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 16:02:02,451  INFO StartLogger - Disabling input list
+14 янв. 2025 16:02:02,458  INFO StartLogger - Setting user select for properties
+14 янв. 2025 16:02:02,466  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 16:02:02,467  INFO StartLogger - Setting up loggables
+14 янв. 2025 16:02:02,467  INFO StartLogger - Finalizing forms
+14 янв. 2025 16:02:02,499  INFO StartLogger - Finalizing properties
+14 янв. 2025 16:02:02,509  INFO StartLogger - Synchronizing DB
+14 янв. 2025 16:02:02,569  INFO StartLogger - Checking indexes
+14 янв. 2025 16:02:02,578  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 16:02:02,615  INFO StartLogger - Creating tables
+14 янв. 2025 16:02:02,619  INFO StartLogger - Updating stats
+14 янв. 2025 16:02:02,659  INFO StartLogger - Adding indexes
+14 янв. 2025 16:02:02,659  INFO StartLogger - Packing tables
+14 янв. 2025 16:02:02,659  INFO StartLogger - Filling static objects ids
+14 янв. 2025 16:02:02,898  INFO StartLogger - Prereading form property events
+14 янв. 2025 16:02:03,607  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 16:02:03,644  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 16:02:03,644  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 16:02:04,592  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 16:02:04,658  INFO StartLogger - Reading local events links
+14 янв. 2025 16:02:04,682  INFO StartLogger - Building local events list
+14 янв. 2025 16:02:04,707  INFO StartLogger - Writing static objects changes
+14 янв. 2025 16:02:04,895  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 16:02:04,924  INFO StartLogger - Recalculating materializations
+14 янв. 2025 16:02:05,073  INFO StartLogger - Initializing security manager
+14 янв. 2025 16:02:05,073  INFO StartLogger - Starting security manager
+14 янв. 2025 16:02:05,164  INFO StartLogger - Starting RMI manager
+14 янв. 2025 16:02:05,180  INFO StartLogger - Executing onInit action
+14 янв. 2025 16:02:05,180  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 16:02:05,180  INFO StartLogger - Synchronizing icons
+14 янв. 2025 16:02:05,180  INFO StartLogger - Executing onStarted action
+14 янв. 2025 16:02:05,728  INFO StartLogger - Starting Scheduler
+14 янв. 2025 16:02:06,110  INFO StartLogger - Prereading auto icons
+14 янв. 2025 16:02:09,202  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 16:02:09,210  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 16:02:10,104  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 16:02:10,138  INFO StartLogger - Prereading properties graph
+14 янв. 2025 16:02:10,138  INFO StartLogger - Reading modules hash
+14 янв. 2025 16:02:10,138  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 16:02:10,139  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 16:02:10,140  INFO StartLogger - Comparing modulesHash: old a9d52df1, new 52acc83f
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing forms
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing tables
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing parents
+14 янв. 2025 16:02:10,141  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 16:02:10,141  INFO StartLogger - Prereading security policies
+14 янв. 2025 16:02:12,051  INFO StartLogger - Synchronizing tables finished, 1910ms
+14 янв. 2025 16:02:12,051  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 16:02:12,052  INFO StartLogger - Writing modulesHash 52acc83f started
+14 янв. 2025 16:02:12,072  INFO StartLogger - Writing modulesHash 52acc83f finished, 20ms
+14 янв. 2025 16:02:12,073  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 16:02:12,077  INFO StartLogger - Cleaning obsolete caches finished, 4ms
+14 янв. 2025 16:02:12,077  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 16:02:12,096  INFO StartLogger - Executing onFinallyStarted finished, 19ms
+14 янв. 2025 16:02:12,096  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 16:02:12,097  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 16:02:12,097  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 16:02:12,097  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 16:02:12,097  INFO StartLogger - Server has successfully started in 16924 ms
+14 янв. 2025 16:07:56,843  INFO StartLogger - Server is starting...
+14 янв. 2025 16:07:56,884  INFO StartLogger - Current version: 6.0-beta1 (310)
+14 янв. 2025 16:07:57,971  INFO StartLogger - Logics instance is starting...
+14 янв. 2025 16:07:58,014  INFO StartLogger - Initializing BusinessLogics
+14 янв. 2025 16:07:58,024  INFO StartLogger - Initializing string literals data
+14 янв. 2025 16:07:58,025  INFO StartLogger - Creating modules
+14 янв. 2025 16:07:58,024  INFO StartLogger - Initializing localizer
+14 янв. 2025 16:07:58,444  INFO StartLogger - Initializing dependencies
+14 янв. 2025 16:07:58,727  INFO StartLogger - Initializing modules order
+14 янв. 2025 16:07:58,730  INFO StartLogger - Initializing metacodes and classes
+14 янв. 2025 16:07:59,441  INFO StartLogger - Initializing object class
+14 янв. 2025 16:07:59,448  INFO StartLogger - Initializing tables
+14 янв. 2025 16:07:59,521  INFO StartLogger - Initializing class tables
+14 янв. 2025 16:07:59,635  INFO StartLogger - Initializing full tables with one key
+14 янв. 2025 16:07:59,635  INFO StartLogger - Initializing main logic
+14 янв. 2025 16:07:59,644  INFO StartLogger - Initializing main logic for module : #1 of 54 System (actual: 1)
+14 янв. 2025 16:08:00,229  INFO StartLogger - Initializing main logic for module : #2 of 54 Image (actual: 11)
+14 янв. 2025 16:08:00,229  INFO StartLogger - Initializing main logic for module : #5 of 54 Time (actual: 2)
+14 янв. 2025 16:08:00,229  INFO StartLogger - Initializing main logic for module : #4 of 54 Sound (actual: 31)
+14 янв. 2025 16:08:00,229  INFO StartLogger - Initializing main logic for module : #3 of 54 Integration (actual: 45)
+14 янв. 2025 16:08:00,235  INFO StartLogger - Initializing main logic for module : #6 of 54 Printer (actual: 10)
+14 янв. 2025 16:08:00,236  INFO StartLogger - Initializing main logic for module : #7 of 54 UserEvents (actual: 15)
+14 янв. 2025 16:08:00,246  INFO StartLogger - Initializing main logic for module : #8 of 54 MasterData (actual: 7)
+14 янв. 2025 16:08:00,249  INFO StartLogger - Initializing main logic for module : #9 of 54 DefaultData (actual: 12)
+14 янв. 2025 16:08:00,249  INFO StartLogger - Initializing main logic for module : #10 of 54 Com (actual: 48)
+14 янв. 2025 16:08:00,253  INFO StartLogger - Initializing main logic for module : #11 of 54 Numerator (actual: 13)
+14 янв. 2025 16:08:00,254  INFO StartLogger - Initializing main logic for module : #12 of 54 Team (actual: 18)
+14 янв. 2025 16:08:00,275  INFO StartLogger - Initializing main logic for module : #13 of 54 Game (actual: 19)
+14 янв. 2025 16:08:00,319  INFO StartLogger - Initializing main logic for module : #14 of 54 Player (actual: 20)
+14 янв. 2025 16:08:00,328  INFO StartLogger - Initializing main logic for module : #15 of 54 ProcessUtils (actual: 33)
+14 янв. 2025 16:08:00,367  INFO StartLogger - Initializing main logic for module : #16 of 54 Score (actual: 36)
+14 янв. 2025 16:08:00,367  INFO StartLogger - Initializing main logic for module : #17 of 54 Goal (actual: 21)
+14 янв. 2025 16:08:00,820  INFO StartLogger - Initializing main logic for module : #18 of 54 Utils (actual: 3)
+14 янв. 2025 16:08:00,938  INFO StartLogger - Initializing main logic for module : #19 of 54 Schedule (actual: 54)
+14 янв. 2025 16:08:00,939  INFO StartLogger - Initializing main logic for module : #20 of 54 Hierarchy (actual: 17)
+14 янв. 2025 16:08:00,941  INFO StartLogger - Initializing main logic for module : #21 of 54 Authentication (actual: 4)
+14 янв. 2025 16:08:00,946  INFO StartLogger - Initializing main logic for module : #22 of 54 I18n (actual: 30)
+14 янв. 2025 16:08:00,949  INFO StartLogger - Initializing main logic for module : #23 of 54 Excel (actual: 22)
+14 янв. 2025 16:08:01,276  INFO StartLogger - Initializing main logic for module : #24 of 54 Historizable (actual: 16)
+14 янв. 2025 16:08:01,277  INFO StartLogger - Initializing main logic for module : #25 of 54 Reflection (actual: 5)
+14 янв. 2025 16:08:01,280  INFO StartLogger - Initializing main logic for module : #26 of 54 ProcessMonitor (actual: 43)
+14 янв. 2025 16:08:01,315  INFO StartLogger - Initializing main logic for module : #27 of 54 Document (actual: 14)
+14 янв. 2025 16:08:01,450  INFO StartLogger - Initializing main logic for module : #28 of 54 Messenger (actual: 28)
+14 янв. 2025 16:08:01,450  INFO StartLogger - Initializing main logic for module : #29 of 54 SystemEvents (actual: 6)
+14 янв. 2025 16:08:01,468  INFO StartLogger - Initializing main logic for module : #30 of 54 Skype (actual: 52)
+14 янв. 2025 16:08:01,477  INFO StartLogger - Initializing main logic for module : #31 of 54 Slack (actual: 38)
+14 янв. 2025 16:08:01,482  INFO StartLogger - Initializing main logic for module : #32 of 54 Whatsapp (actual: 29)
+14 янв. 2025 16:08:01,575  INFO StartLogger - Initializing main logic for module : #33 of 54 Telegram (actual: 49)
+14 янв. 2025 16:08:01,603  INFO StartLogger - Initializing main logic for module : #34 of 54 Viber (actual: 35)
+14 янв. 2025 16:08:01,746  INFO StartLogger - Initializing main logic for module : #35 of 54 QZTray (actual: 32)
+14 янв. 2025 16:08:01,766  INFO StartLogger - Initializing main logic for module : #36 of 54 FrappeGantt (actual: 40)
+14 янв. 2025 16:08:01,767  INFO StartLogger - Initializing main logic for module : #37 of 54 Chart (actual: 47)
+14 янв. 2025 16:08:01,769  INFO StartLogger - Initializing main logic for module : #38 of 54 Email (actual: 23)
+14 янв. 2025 16:08:01,769  INFO StartLogger - Initializing main logic for module : #39 of 54 WebSocket (actual: 50)
+14 янв. 2025 16:08:01,799  INFO StartLogger - Initializing main logic for module : #40 of 54 Carousel (actual: 9)
+14 янв. 2025 16:08:01,800  INFO StartLogger - Initializing main logic for module : #41 of 54 Icon (actual: 39)
+14 янв. 2025 16:08:01,817  INFO StartLogger - Initializing main logic for module : #42 of 54 RabbitMQ (actual: 51)
+14 янв. 2025 16:08:01,827  INFO StartLogger - Initializing main logic for module : #43 of 54 Geo (actual: 34)
+14 янв. 2025 16:08:01,829  INFO StartLogger - Initializing main logic for module : #44 of 54 Word (actual: 8)
+14 янв. 2025 16:08:01,848  INFO StartLogger - Initializing main logic for module : #45 of 54 OpenCV (actual: 53)
+14 янв. 2025 16:08:01,854  INFO StartLogger - Initializing main logic for module : #46 of 54 JKanban (actual: 37)
+14 янв. 2025 16:08:01,900  INFO StartLogger - Initializing main logic for module : #47 of 54 Security (actual: 24)
+14 янв. 2025 16:08:02,054  INFO StartLogger - Initializing main logic for module : #48 of 54 Service (actual: 25)
+14 янв. 2025 16:08:02,201  INFO StartLogger - Initializing main logic for module : #49 of 54 Scheduler (actual: 41)
+14 янв. 2025 16:08:02,203  INFO StartLogger - Initializing main logic for module : #50 of 54 Eval (actual: 27)
+14 янв. 2025 16:08:02,347  INFO StartLogger - Initializing main logic for module : #51 of 54 Profiler (actual: 26)
+14 янв. 2025 16:08:02,365  INFO StartLogger - Initializing main logic for module : #52 of 54 Chat (actual: 46)
+14 янв. 2025 16:08:02,417  INFO StartLogger - Initializing main logic for module : #53 of 54 SQLUtils (actual: 44)
+14 янв. 2025 16:08:02,500  INFO StartLogger - Initializing main logic for module : #54 of 54 Backup (actual: 42)
+14 янв. 2025 16:08:02,559  INFO StartLogger - Finalizing groups
+14 янв. 2025 16:08:02,559  INFO StartLogger - Checking for duplicate elements
+14 янв. 2025 16:08:02,559  INFO StartLogger - Finalizing classes
+14 янв. 2025 16:08:02,580  INFO StartLogger - Initializing class dialog forms
+14 янв. 2025 16:08:02,581  INFO StartLogger - Filling implicit cases
+14 янв. 2025 16:08:02,581  INFO StartLogger - Initializing abstract properties
+14 янв. 2025 16:08:02,582  INFO StartLogger - Finalizing abstract actions
+14 янв. 2025 16:08:02,640  INFO StartLogger - Initializing class aggr props
+14 янв. 2025 16:08:02,647  INFO StartLogger - Checking abstract
+14 янв. 2025 16:08:02,684  INFO StartLogger - Initializing fields for data and materialized properties
+14 янв. 2025 16:08:02,684  INFO StartLogger - Looking for recursions in abstract actions
+14 янв. 2025 16:08:02,766  INFO StartLogger - Finalizing navigator elements
+14 янв. 2025 16:08:02,767  INFO StartLogger - Setting up drill-down
+14 янв. 2025 16:08:02,767  INFO StartLogger - Setting up property policy
+14 янв. 2025 16:08:02,851  INFO StartLogger - Finalizing tables
+14 янв. 2025 16:08:02,940  INFO StartLogger - Initializing indices
+14 янв. 2025 16:08:02,969  INFO StartLogger - Initializing reflection events
+14 янв. 2025 16:08:02,988  INFO StartLogger - Setting up action policy
+14 янв. 2025 16:08:03,954  INFO StartLogger - Setting user logging for properties
+14 янв. 2025 16:08:03,969  INFO StartLogger - Setting user not null constraints for properties
+14 янв. 2025 16:08:03,976  INFO StartLogger - Disabling input list
+14 янв. 2025 16:08:03,984  INFO StartLogger - Setting user select for properties
+14 янв. 2025 16:08:03,992  INFO StartLogger - Initializing class data indexes
+14 янв. 2025 16:08:03,992  INFO StartLogger - Finalizing forms
+14 янв. 2025 16:08:03,992  INFO StartLogger - Setting up loggables
+14 янв. 2025 16:08:04,022  INFO StartLogger - Finalizing properties
+14 янв. 2025 16:08:04,034  INFO StartLogger - Synchronizing DB
+14 янв. 2025 16:08:04,081  INFO StartLogger - Checking indexes
+14 янв. 2025 16:08:04,088  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+14 янв. 2025 16:08:04,148  INFO StartLogger - Creating tables
+14 янв. 2025 16:08:04,153  INFO StartLogger - Updating stats
+14 янв. 2025 16:08:04,179  INFO StartLogger - Adding indexes
+14 янв. 2025 16:08:04,180  INFO StartLogger - Packing tables
+14 янв. 2025 16:08:04,180  INFO StartLogger - Filling static objects ids
+14 янв. 2025 16:08:04,601  INFO StartLogger - Prereading form property events
+14 янв. 2025 16:08:05,771  INFO StartLogger - Initializing lazy properties
+14 янв. 2025 16:08:05,799  INFO StartLogger - Looking for recursions in abstract properties
+14 янв. 2025 16:08:05,799  INFO StartLogger - Reading global events / materialized properties links
+14 янв. 2025 16:08:06,774  INFO StartLogger - Building global events / materialized properties list
+14 янв. 2025 16:08:06,807  INFO StartLogger - Reading local events links
+14 янв. 2025 16:08:06,828  INFO StartLogger - Building local events list
+14 янв. 2025 16:08:06,858  INFO StartLogger - Writing static objects changes
+14 янв. 2025 16:08:07,078  INFO StartLogger - Migrating reflection properties and actions
+14 янв. 2025 16:08:07,106  INFO StartLogger - Recalculating materializations
+14 янв. 2025 16:08:07,292  INFO StartLogger - Initializing security manager
+14 янв. 2025 16:08:07,293  INFO StartLogger - Starting security manager
+14 янв. 2025 16:08:07,394  INFO StartLogger - Starting RMI manager
+14 янв. 2025 16:08:07,410  INFO StartLogger - Initializing actions' debugger
+14 янв. 2025 16:08:07,410  INFO StartLogger - Synchronizing icons
+14 янв. 2025 16:08:07,410  INFO StartLogger - Executing onInit action
+14 янв. 2025 16:08:07,413  INFO StartLogger - Executing onStarted action
+14 янв. 2025 16:08:07,903  INFO StartLogger - Prereading auto icons
+14 янв. 2025 16:08:08,088  INFO StartLogger - Starting Scheduler
+14 янв. 2025 16:08:09,034  INFO StartLogger - Exporting RMI logics object (port: 7652)
+14 янв. 2025 16:08:09,044  INFO StartLogger - Exporting RMI logics object (port: 7652) ended
+14 янв. 2025 16:08:12,268  INFO StartLogger - Prereading auto icons ended
+14 янв. 2025 16:08:12,407  INFO StartLogger - Prereading properties graph
+14 янв. 2025 16:08:12,408  INFO StartLogger - Reading modules hash
+14 янв. 2025 16:08:12,409  INFO StartLogger - Prereading caches for properties
+14 янв. 2025 16:08:12,410  INFO StartLogger - Comparing modulesHash: old 52acc83f, new 3c5512ee
+14 янв. 2025 16:08:12,411  INFO StartLogger - Synchronizing property entities
+14 янв. 2025 16:08:12,411  INFO StartLogger - Synchronizing forms
+14 янв. 2025 16:08:12,411  INFO StartLogger - Synchronizing tables
+14 янв. 2025 16:08:12,411  INFO StartLogger - Synchronizing navigator elements
+14 янв. 2025 16:08:12,411  INFO StartLogger - Synchronizing group objects
+14 янв. 2025 16:08:12,411  INFO StartLogger - Synchronizing parents
+14 янв. 2025 16:08:12,413  INFO StartLogger - Synchronizing tables started
+14 янв. 2025 16:08:12,434  INFO StartLogger - Synchronizing property draws
+14 янв. 2025 16:08:12,434  INFO StartLogger - Prereading caches for properties ended
+14 янв. 2025 16:08:12,434  INFO StartLogger - Synchronizing group properties
+14 янв. 2025 16:08:12,435  INFO StartLogger - Synchronizing property parents
+14 янв. 2025 16:08:12,435  INFO StartLogger - Prereading security policies
+14 янв. 2025 16:08:15,993  INFO StartLogger - Synchronizing tables finished, 3580ms
+14 янв. 2025 16:08:15,994  INFO StartLogger - Recalculating Stats and Materializations at first start
+14 янв. 2025 16:08:15,994  INFO StartLogger - Writing modulesHash 3c5512ee started
+14 янв. 2025 16:08:16,019  INFO StartLogger - Writing modulesHash 3c5512ee finished, 25ms
+14 янв. 2025 16:08:16,020  INFO StartLogger - Cleaning obsolete caches started
+14 янв. 2025 16:08:16,026  INFO StartLogger - Cleaning obsolete caches finished, 6ms
+14 янв. 2025 16:08:16,027  INFO StartLogger - Executing onFinallyStarted started
+14 янв. 2025 16:08:16,047  INFO StartLogger - Executing onFinallyStarted finished, 20ms
+14 янв. 2025 16:08:16,047  INFO StartLogger - Logics instance has successfully started
+14 янв. 2025 16:08:16,048  INFO StartLogger - Desktop Client is available at:
+14 янв. 2025 16:08:16,048  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-6.0-beta1.jnlp
+14 янв. 2025 16:08:16,048  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-6.0-beta1-x64.exe
+14 янв. 2025 16:08:16,048  INFO StartLogger - Server has successfully started in 19610 ms

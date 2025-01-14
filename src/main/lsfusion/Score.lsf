@@ -31,7 +31,7 @@ place 'Место' (Team team) = PARTITION SUM 1 ORDER DESC points(team), gamesW
 
 FORM scoreTable 'Турнирная таблица'
     OBJECTS game = Game
-    PROPERTIES(game) date, gameName, hostGoals, guestGoals, resultName, NEW, DELETE
+    PROPERTIES(game) date, hostTeamName, guestTeamName, hostGoals, guestGoals, resultName, NEW, DELETE
 
     OBJECTS team = Team
     PROPERTIES(team) place, name, gamesPlayed, gamesWon, gamesWonOT, gamesWonSO,

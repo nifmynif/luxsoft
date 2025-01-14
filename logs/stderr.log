@@ -149,3 +149,26 @@ Subsequent errors (if any) could not be found.
 	Main.lsf:1:1 mismatched input '<EOF>' expecting 'MODULE'
 
 14 янв. 2025 15:33:40,949 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:38:14,818 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:42:27,363 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:45:43,881 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:47:44,310 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:50:58,293 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:52:34,241 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 15:54:27,284 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: [error]:	there is a circular dependency between required modules: Goal <- Game <- Goal
+	at lsfusion.server.physics.dev.module.ModuleList.checkCycles(ModuleList.java:147)
+	at lsfusion.server.physics.dev.module.ModuleList.buildModuleGraphWithOrderDependencies(ModuleList.java:44)
+	at lsfusion.server.physics.dev.module.ModuleList.orderModules(ModuleList.java:37)
+	at lsfusion.server.logics.BusinessLogics.initModuleOrders(BusinessLogics.java:421)
+	at lsfusion.server.physics.dev.module.controller.init.InitModuleOrderTask.run(InitModuleOrderTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:154)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:112)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:476)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:558)
+14 янв. 2025 15:59:39,260 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 16:02:06,324 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+14 янв. 2025 16:08:08,817 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
